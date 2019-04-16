@@ -4,6 +4,12 @@ print("-------------------------------------------- Переменные")
 number = 1
 text = " ThisIsText"
 
+# Пустая переменная
+x = None
+print(x)
+x = 5
+print(x)
+
 # Соединяем число и текст (нужно привести к одному типу, тип строки)
 result = str(number) + text
 print(result)
@@ -28,3 +34,4 @@ a = 10
 b = 20
 a, b = b, a
 print(a, b)
+
