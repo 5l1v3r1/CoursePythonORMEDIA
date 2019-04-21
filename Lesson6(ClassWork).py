@@ -1,3 +1,6 @@
+import requests
+from bs4 import BeautifulSoup
+
 print("-------------------------------------------- Создание класса. Создание экзепляра. Процедура инициализации.")
 
 
@@ -90,26 +93,40 @@ Two = TwoClass(30, 40)
 print(One.x, One.y)
 print(Two.x, Two.y, Two.a, Two.b)  # В объекте "Two" есть переменные(атрибуты) "x" и "y" унаследованные от "One"
 
-print("-------------------------------------------- ПАРСИНГ")
+print("-------------------------------------------- ПАРСИНГ. BeautifulSoup. Метод find (поиск по html)")
+
 
 # Парсинг      — это инструмент работы со строковыми данными. 
 # Веб Скрапинг – это процесс извлечения информации из сайта.
 # Краулинг     - это переход программы от одной ссылки к другой чтобы собрать всю информацию.
 
-import requests
-
-from bs4 import BeautifulSoup as bs
-
-
 def get_html(url):
-    res = requests.get(url)             # Возвращает <Response [200]> статус результа запроса
-    res_dir = dir(requests.get(url))    # Dir – возвращает список всех атрибутов.
-    res_text = requests.get(url).text   # Возвращает HTML ответ
-    print("-------------1-------------", res)
-    print("-------------2-------------", res_dir)
-    #print("-------------3-------------", res_text)
+    # response_status = requests.get(url)  # Возвращает <Response [200]> статус результа запроса
+    # attributes = dir(requests.get(url))  # Возвращает список всех атрибутов.
+    html = requests.get(url).text  # Возвращает HTML ответ
+    # print("-------------1-------------", response_status)
+    # print("-------------2-------------", attributes)
+    # print("-------------3-------------", html)
+    return html
 
 
+# Возвращает заголовок сайта
+def get_data(html):
+    soup = BeautifulSoup(html, 'lxml')
+    p = soup.find_all("header")[0].find_all("p")[0].text
+    return p
 
-print(get_html("https://ru.wordpress.org/"))
 
+# Возвращает заголовок сайта (По шагам)
+def get_data_full(html):
+    soup = BeautifulSoup(html, 'lxml')  # Парсим "html" методом "lxml"
+    x1 = soup.find_all("header")        # Создаем список из всех найденых контейнеров с именем "header"
+    x2 = x1[0]                          # Извлекаем первый найденный контейнер из списка
+    x3 = x2.find_all("p")               # Создаем список из всех найденых контейнеров с именем "p"
+    x4 = x3[0]                          # Извлекаем первый найденный контейнер из списка
+    x5 = x4.text                        # Извлекаем текст в контейнере
+    return print(x4, x5)
+
+
+print(get_data(get_html("https://ru.wordpress.org/")))
+get_data_full(get_html("https://ru.wordpress.org/"))
