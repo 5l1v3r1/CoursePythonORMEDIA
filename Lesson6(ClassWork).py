@@ -66,7 +66,7 @@ oneOrange.peelOff()
 twoOrange.peelOff()
 threeOrange.peelOff()
 
-print("-------------------------------------------- Пример НАСЛЕДОВАНИЯ")
+print("-------------------------------------------- Пример НАСЛЕДОВАНИЯ и ПЕРЕОПРЕДЕЛНИЯ МЕТОДА")
 
 
 class OneClass():  # Родительский
@@ -89,3 +89,27 @@ Two = TwoClass(30, 40)
 
 print(One.x, One.y)
 print(Two.x, Two.y, Two.a, Two.b)  # В объекте "Two" есть переменные(атрибуты) "x" и "y" унаследованные от "One"
+
+print("-------------------------------------------- ПАРСИНГ")
+
+# Парсинг      — это инструмент работы со строковыми данными. 
+# Веб Скрапинг – это процесс извлечения информации из сайта.
+# Краулинг     - это переход программы от одной ссылки к другой чтобы собрать всю информацию.
+
+import requests
+
+from bs4 import BeautifulSoup as bs
+
+
+def get_html(url):
+    res = requests.get(url)             # Возвращает <Response [200]> статус результа запроса
+    res_dir = dir(requests.get(url))    # Dir – возвращает список всех атрибутов.
+    res_text = requests.get(url).text   # Возвращает HTML ответ
+    print("-------------1-------------", res)
+    print("-------------2-------------", res_dir)
+    #print("-------------3-------------", res_text)
+
+
+
+print(get_html("https://ru.wordpress.org/"))
+
