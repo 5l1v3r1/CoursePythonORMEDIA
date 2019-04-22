@@ -128,11 +128,11 @@ def get_data_full(html):
     x3 = x2.find_all("p")  # Создаем список из всех найденых контейнеров с именем "p"
     x4 = x3[0]  # Извлекаем первый найденный контейнер из списка
     x5 = x4.text  # Извлекаем текст в контейнере
-    print(x4, x5)
+    print("1В -", x4, x5)
     # --------- 2 ВАРИАНТ ---------
     x6 = soup.body.header.div.find_all("p")[0]  # Первый попавшийся "p"
     x7 = x6.text
-    print(x6, x7)
+    print("2В -", x6, x7)
     return print("[Good \"get_data_full\"]")
 
 
