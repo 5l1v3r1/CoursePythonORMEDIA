@@ -36,6 +36,10 @@ def get_message():
 # ОТПРАВЛЯТЬ Сообщения
 def send_message(chat_id, text):
     import requests
+    # 1 ВАРИАНТ
+    # json_message = {'chat_id': chat_id, 'text': text}
+    # result = requests.post(URL + 'sendmessage', json=json_message)
+    # 2 ВАРИАНТ
     result = requests.get(URL + 'sendmessage?chat_id={}&text={}'.format(chat_id, text))
     return result
     # return "Сообщение отправленно"
