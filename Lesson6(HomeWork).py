@@ -108,7 +108,7 @@ print("-------------------------------------------- Задание 5-6 (92)")
 '''
 
 
-class Rectangle:
+class Rectangle:  # Прямоугольник
     def calculate_perimeter(self):  # Площадь
         return (self.a * self.a) + (self.b * self.b)
 
@@ -117,7 +117,7 @@ class Rectangle:
         self.b = b
 
 
-class Square:
+class Square:  # Квадрат
     def calculate_perimeter(self):  # Площадь
         return self.a * 4
 
@@ -135,4 +135,44 @@ print(round(Two.calculate_perimeter(), 3), "см")
 Two.change_size(2)
 print(round(Two.calculate_perimeter(), 3), "см")
 
+print("-------------------------------------------- Задание 7 (111)")
 
+'''
+Получить курс нескольких валют за текущую дату.
+Сообщение в виде списка, вроде: «За 11.04.2019 курс 2.12 рублей за 1 Евро, 228… за 1 доллар». 
+http://www.nbrb.by/APIHelp/ExRates 
+'''
+
+
+# Возвращает строку с содержимым html c указанной страницы по "url"
+def get_html(url):
+    import requests
+    html = requests.get(url).text
+    return html
+
+
+# Возвращает строку с содержимым json c указанной страницы по "url"
+def get_json(url):
+    import requests
+    html = requests.get(url).json()
+    return html
+
+
+# Печатает шаблон домашки с параметрами: "date, usd, eur"
+def print_str(data, usd, eur):
+    print("За " + str(data[:10]) + " курс " + str(eur) + " рублей за 1 Евро, " + str(usd) + " за 1 доллар")
+
+
+# Извлекает из JSON данные которые нужны (частный случай)
+def get_data_json(json):
+    p = list(json)[4]            # p = строка с USD
+    date = p["Date"]             # Ищем в строке данные по ключу "Date"
+    usd = p["Cur_OfficialRate"]  # Ищем в строке данные по ключу "Cur_OfficialRate"
+    p = list(json)[5]            # p = строка с EUR
+    eur = p["Cur_OfficialRate"]  # Ищем в строке данные по ключу "Cur_OfficialRate"
+    return print_str(date, usd, eur)
+
+
+# url = "http://www.nbrb.by/statistics/Rates/RatesDaily.asp"
+url = "http://www.nbrb.by/API/ExRates/Rates?Periodicity=0"
+get_data_json(get_json(url))
