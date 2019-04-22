@@ -154,21 +154,21 @@ def get_html(url):
 # Возвращает строку с содержимым json c указанной страницы по "url"
 def get_json(url):
     import requests
-    html = requests.get(url).json()
-    return html
+    json = requests.get(url).json()
+    return json
 
 
 # Печатает шаблон домашки с параметрами: "date, usd, eur"
 def print_str(data, usd, eur):
-    print("За " + str(data[:10]) + " курс " + str(eur) + " рублей за 1 Евро, " + str(usd) + " за 1 доллар")
+    print("За " + str(data[:10]) + " курс " + str(eur) + " рублей за 1 Евро, " + str(usd) + " рублей за 1 доллар")
 
 
 # Извлекает из JSON данные которые нужны (частный случай)
 def get_data_json(json):
-    p = list(json)[4]            # p = строка с USD
-    date = p["Date"]             # Ищем в строке данные по ключу "Date"
+    p = list(json)[4]  # p = строка с USD
+    date = p["Date"]  # Ищем в строке данные по ключу "Date"
     usd = p["Cur_OfficialRate"]  # Ищем в строке данные по ключу "Cur_OfficialRate"
-    p = list(json)[5]            # p = строка с EUR
+    p = list(json)[5]  # p = строка с EUR
     eur = p["Cur_OfficialRate"]  # Ищем в строке данные по ключу "Cur_OfficialRate"
     return print_str(date, usd, eur)
 

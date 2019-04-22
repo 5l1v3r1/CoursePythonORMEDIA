@@ -110,8 +110,9 @@ def get_html(url):
     return html
 
 
-# Возвращает заголовок сайта
+# Возвращает строку с содержимым html c указанной страницы по "url"
 def get_data(html):
+    from bs4 import BeautifulSoup
     soup = BeautifulSoup(html, 'lxml')
     p = soup.find_all("header")[0].find_all("p")[0].text
     return p
@@ -121,13 +122,29 @@ def get_data(html):
 def get_data_full(html):
     from bs4 import BeautifulSoup
     soup = BeautifulSoup(html, 'lxml')  # Парсим "html" методом "lxml"
-    x1 = soup.find_all("header")        # Создаем список из всех найденых контейнеров с именем "header"
-    x2 = x1[0]                          # Извлекаем первый найденный контейнер из списка
-    x3 = x2.find_all("p")               # Создаем список из всех найденых контейнеров с именем "p"
-    x4 = x3[0]                          # Извлекаем первый найденный контейнер из списка
-    x5 = x4.text                        # Извлекаем текст в контейнере
-    return print(x4, x5)
+    # --------- 1 ВАРИАНТ ---------
+    x1 = soup.find_all("header")  # Создаем список из всех найденых контейнеров с именем "header"
+    x2 = x1[0]  # Извлекаем первый найденный контейнер из списка
+    x3 = x2.find_all("p")  # Создаем список из всех найденых контейнеров с именем "p"
+    x4 = x3[0]  # Извлекаем первый найденный контейнер из списка
+    x5 = x4.text  # Извлекаем текст в контейнере
+    print(x4, x5)
+    # --------- 2 ВАРИАНТ ---------
+    x6 = soup.body.header.div.find_all("p")[0]  # Первый попавшийся "p"
+    x7 = x6.text
+    print(x6, x7)
+    return print("[Good \"get_data_full\"]")
 
 
 print(get_data(get_html("https://ru.wordpress.org/")))
 get_data_full(get_html("https://ru.wordpress.org/"))
+
+print("-------------------------------------------- JSON")
+
+
+# Возвращает строку с содержимым json c указанной страницы по "url"
+def get_json(url):
+    import requests
+    json = requests.get(url).json()
+    return json
+
