@@ -70,7 +70,7 @@ print("-------------------------------------------- Обработка отве�
 
 def main():
     while True:
-        answer = get_message()
+        answer = get_message()  # Получить последнее сообщение
         if 'ничего' in answer['text']:
             send_message(answer['chat_id'], 'тогда проваливай!')
             break
