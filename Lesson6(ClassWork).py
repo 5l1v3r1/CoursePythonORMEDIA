@@ -147,4 +147,3 @@ def get_json(url):
     import requests
     json = requests.get(url).json()
     return json
-
