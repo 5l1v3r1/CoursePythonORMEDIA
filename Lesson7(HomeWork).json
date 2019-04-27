@@ -2,9 +2,9 @@
   "ok": true,
   "result": [
     {
-      "update_id": 611506606,
+      "update_id": 611506642,
       "message": {
-        "message_id": 97,
+        "message_id": 394,
         "from": {
           "id": 221824550,
           "is_bot": false,
@@ -20,7 +20,467 @@
           "username": "otrue",
           "type": "private"
         },
-        "date": 1556027771,
+        "date": 1556273901,
+        "text": "хей"
+      }
+    },
+    {
+      "update_id": 611506643,
+      "message": {
+        "message_id": 395,
+        "from": {
+          "id": 221824550,
+          "is_bot": false,
+          "first_name": "Augustine",
+          "last_name": "Аydukevich",
+          "username": "otrue",
+          "language_code": "ru"
+        },
+        "chat": {
+          "id": 221824550,
+          "first_name": "Augustine",
+          "last_name": "Аydukevich",
+          "username": "otrue",
+          "type": "private"
+        },
+        "date": 1556274068,
+        "text": "привет"
+      }
+    },
+    {
+      "update_id": 611506644,
+      "message": {
+        "message_id": 403,
+        "from": {
+          "id": 221824550,
+          "is_bot": false,
+          "first_name": "Augustine",
+          "last_name": "Аydukevich",
+          "username": "otrue",
+          "language_code": "ru"
+        },
+        "chat": {
+          "id": 221824550,
+          "first_name": "Augustine",
+          "last_name": "Аydukevich",
+          "username": "otrue",
+          "type": "private"
+        },
+        "date": 1556274475,
+        "text": "привет"
+      }
+    },
+    {
+      "update_id": 611506645,
+      "message": {
+        "message_id": 405,
+        "from": {
+          "id": 221824550,
+          "is_bot": false,
+          "first_name": "Augustine",
+          "last_name": "Аydukevich",
+          "username": "otrue",
+          "language_code": "ru"
+        },
+        "chat": {
+          "id": 221824550,
+          "first_name": "Augustine",
+          "last_name": "Аydukevich",
+          "username": "otrue",
+          "type": "private"
+        },
+        "date": 1556274541,
+        "text": "привет"
+      }
+    },
+    {
+      "update_id": 611506646,
+      "message": {
+        "message_id": 406,
+        "from": {
+          "id": 221824550,
+          "is_bot": false,
+          "first_name": "Augustine",
+          "last_name": "Аydukevich",
+          "username": "otrue",
+          "language_code": "ru"
+        },
+        "chat": {
+          "id": 221824550,
+          "first_name": "Augustine",
+          "last_name": "Аydukevich",
+          "username": "otrue",
+          "type": "private"
+        },
+        "date": 1556274562,
+        "text": "пока"
+      }
+    },
+    {
+      "update_id": 611506647,
+      "message": {
+        "message_id": 407,
+        "from": {
+          "id": 221824550,
+          "is_bot": false,
+          "first_name": "Augustine",
+          "last_name": "Аydukevich",
+          "username": "otrue",
+          "language_code": "ru"
+        },
+        "chat": {
+          "id": 221824550,
+          "first_name": "Augustine",
+          "last_name": "Аydukevich",
+          "username": "otrue",
+          "type": "private"
+        },
+        "date": 1556274619,
+        "text": "привет"
+      }
+    },
+    {
+      "update_id": 611506648,
+      "message": {
+        "message_id": 431,
+        "from": {
+          "id": 221824550,
+          "is_bot": false,
+          "first_name": "Augustine",
+          "last_name": "Аydukevich",
+          "username": "otrue",
+          "language_code": "ru"
+        },
+        "chat": {
+          "id": 221824550,
+          "first_name": "Augustine",
+          "last_name": "Аydukevich",
+          "username": "otrue",
+          "type": "private"
+        },
+        "date": 1556274821,
+        "text": "о"
+      }
+    },
+    {
+      "update_id": 611506649,
+      "message": {
+        "message_id": 433,
+        "from": {
+          "id": 221824550,
+          "is_bot": false,
+          "first_name": "Augustine",
+          "last_name": "Аydukevich",
+          "username": "otrue",
+          "language_code": "ru"
+        },
+        "chat": {
+          "id": 221824550,
+          "first_name": "Augustine",
+          "last_name": "Аydukevich",
+          "username": "otrue",
+          "type": "private"
+        },
+        "date": 1556274841,
+        "text": "привет"
+      }
+    },
+    {
+      "update_id": 611506650,
+      "message": {
+        "message_id": 439,
+        "from": {
+          "id": 221824550,
+          "is_bot": false,
+          "first_name": "Augustine",
+          "last_name": "Аydukevich",
+          "username": "otrue",
+          "language_code": "ru"
+        },
+        "chat": {
+          "id": 221824550,
+          "first_name": "Augustine",
+          "last_name": "Аydukevich",
+          "username": "otrue",
+          "type": "private"
+        },
+        "date": 1556274859,
+        "text": "т"
+      }
+    },
+    {
+      "update_id": 611506651,
+      "message": {
+        "message_id": 452,
+        "from": {
+          "id": 221824550,
+          "is_bot": false,
+          "first_name": "Augustine",
+          "last_name": "Аydukevich",
+          "username": "otrue",
+          "language_code": "ru"
+        },
+        "chat": {
+          "id": 221824550,
+          "first_name": "Augustine",
+          "last_name": "Аydukevich",
+          "username": "otrue",
+          "type": "private"
+        },
+        "date": 1556275067,
+        "text": "привет"
+      }
+    },
+    {
+      "update_id": 611506652,
+      "message": {
+        "message_id": 457,
+        "from": {
+          "id": 221824550,
+          "is_bot": false,
+          "first_name": "Augustine",
+          "last_name": "Аydukevich",
+          "username": "otrue",
+          "language_code": "ru"
+        },
+        "chat": {
+          "id": 221824550,
+          "first_name": "Augustine",
+          "last_name": "Аydukevich",
+          "username": "otrue",
+          "type": "private"
+        },
+        "date": 1556275081,
+        "text": "пока"
+      }
+    },
+    {
+      "update_id": 611506653,
+      "message": {
+        "message_id": 490,
+        "from": {
+          "id": 221824550,
+          "is_bot": false,
+          "first_name": "Augustine",
+          "last_name": "Аydukevich",
+          "username": "otrue",
+          "language_code": "ru"
+        },
+        "chat": {
+          "id": 221824550,
+          "first_name": "Augustine",
+          "last_name": "Аydukevich",
+          "username": "otrue",
+          "type": "private"
+        },
+        "date": 1556275208,
+        "text": "привет"
+      }
+    },
+    {
+      "update_id": 611506654,
+      "message": {
+        "message_id": 492,
+        "from": {
+          "id": 221824550,
+          "is_bot": false,
+          "first_name": "Augustine",
+          "last_name": "Аydukevich",
+          "username": "otrue",
+          "language_code": "ru"
+        },
+        "chat": {
+          "id": 221824550,
+          "first_name": "Augustine",
+          "last_name": "Аydukevich",
+          "username": "otrue",
+          "type": "private"
+        },
+        "date": 1556275253,
+        "text": "пока"
+      }
+    },
+    {
+      "update_id": 611506655,
+      "message": {
+        "message_id": 493,
+        "from": {
+          "id": 221824550,
+          "is_bot": false,
+          "first_name": "Augustine",
+          "last_name": "Аydukevich",
+          "username": "otrue",
+          "language_code": "ru"
+        },
+        "chat": {
+          "id": 221824550,
+          "first_name": "Augustine",
+          "last_name": "Аydukevich",
+          "username": "otrue",
+          "type": "private"
+        },
+        "date": 1556275280,
+        "text": "привет"
+      }
+    },
+    {
+      "update_id": 611506656,
+      "message": {
+        "message_id": 496,
+        "from": {
+          "id": 221824550,
+          "is_bot": false,
+          "first_name": "Augustine",
+          "last_name": "Аydukevich",
+          "username": "otrue",
+          "language_code": "ru"
+        },
+        "chat": {
+          "id": 221824550,
+          "first_name": "Augustine",
+          "last_name": "Аydukevich",
+          "username": "otrue",
+          "type": "private"
+        },
+        "date": 1556275368,
+        "text": "пока"
+      }
+    },
+    {
+      "update_id": 611506657,
+      "message": {
+        "message_id": 498,
+        "from": {
+          "id": 221824550,
+          "is_bot": false,
+          "first_name": "Augustine",
+          "last_name": "Аydukevich",
+          "username": "otrue",
+          "language_code": "ru"
+        },
+        "chat": {
+          "id": 221824550,
+          "first_name": "Augustine",
+          "last_name": "Аydukevich",
+          "username": "otrue",
+          "type": "private"
+        },
+        "date": 1556275376,
+        "text": "привет"
+      }
+    },
+    {
+      "update_id": 611506658,
+      "message": {
+        "message_id": 500,
+        "from": {
+          "id": 221824550,
+          "is_bot": false,
+          "first_name": "Augustine",
+          "last_name": "Аydukevich",
+          "username": "otrue",
+          "language_code": "ru"
+        },
+        "chat": {
+          "id": 221824550,
+          "first_name": "Augustine",
+          "last_name": "Аydukevich",
+          "username": "otrue",
+          "type": "private"
+        },
+        "date": 1556275426,
+        "text": "привет"
+      }
+    },
+    {
+      "update_id": 611506659,
+      "message": {
+        "message_id": 502,
+        "from": {
+          "id": 221824550,
+          "is_bot": false,
+          "first_name": "Augustine",
+          "last_name": "Аydukevich",
+          "username": "otrue",
+          "language_code": "ru"
+        },
+        "chat": {
+          "id": 221824550,
+          "first_name": "Augustine",
+          "last_name": "Аydukevich",
+          "username": "otrue",
+          "type": "private"
+        },
+        "date": 1556275444,
+        "text": "привет"
+      }
+    },
+    {
+      "update_id": 611506660,
+      "message": {
+        "message_id": 505,
+        "from": {
+          "id": 221824550,
+          "is_bot": false,
+          "first_name": "Augustine",
+          "last_name": "Аydukevich",
+          "username": "otrue",
+          "language_code": "ru"
+        },
+        "chat": {
+          "id": 221824550,
+          "first_name": "Augustine",
+          "last_name": "Аydukevich",
+          "username": "otrue",
+          "type": "private"
+        },
+        "date": 1556275570,
+        "text": "привет"
+      }
+    },
+    {
+      "update_id": 611506661,
+      "message": {
+        "message_id": 507,
+        "from": {
+          "id": 221824550,
+          "is_bot": false,
+          "first_name": "Augustine",
+          "last_name": "Аydukevich",
+          "username": "otrue",
+          "language_code": "ru"
+        },
+        "chat": {
+          "id": 221824550,
+          "first_name": "Augustine",
+          "last_name": "Аydukevich",
+          "username": "otrue",
+          "type": "private"
+        },
+        "date": 1556275654,
+        "text": "привет"
+      }
+    },
+    {
+      "update_id": 611506662,
+      "message": {
+        "message_id": 511,
+        "from": {
+          "id": 221824550,
+          "is_bot": false,
+          "first_name": "Augustine",
+          "last_name": "Аydukevich",
+          "username": "otrue",
+          "language_code": "ru"
+        },
+        "chat": {
+          "id": 221824550,
+          "first_name": "Augustine",
+          "last_name": "Аydukevich",
+          "username": "otrue",
+          "type": "private"
+        },
+        "date": 1556275791,
         "text": "/start",
         "entities": [
           {
@@ -32,9 +492,9 @@
       }
     },
     {
-      "update_id": 611506607,
+      "update_id": 611506663,
       "message": {
-        "message_id": 99,
+        "message_id": 512,
         "from": {
           "id": 221824550,
           "is_bot": false,
@@ -50,83 +510,14 @@
           "username": "otrue",
           "type": "private"
         },
-        "date": 1556027926,
-        "text": "ничего"
-      }
-    },
-    {
-      "update_id": 611506608,
-      "message": {
-        "message_id": 101,
-        "from": {
-          "id": 221824550,
-          "is_bot": false,
-          "first_name": "Augustine",
-          "last_name": "Аydukevich",
-          "username": "otrue",
-          "language_code": "ru"
-        },
-        "chat": {
-          "id": 221824550,
-          "first_name": "Augustine",
-          "last_name": "Аydukevich",
-          "username": "otrue",
-          "type": "private"
-        },
-        "date": 1556027971,
-        "text": "сам"
-      }
-    },
-    {
-      "update_id": 611506609,
-      "message": {
-        "message_id": 103,
-        "from": {
-          "id": 221824550,
-          "is_bot": false,
-          "first_name": "Augustine",
-          "last_name": "Аydukevich",
-          "username": "otrue",
-          "language_code": "ru"
-        },
-        "chat": {
-          "id": 221824550,
-          "first_name": "Augustine",
-          "last_name": "Аydukevich",
-          "username": "otrue",
-          "type": "private"
-        },
-        "date": 1556027991,
-        "text": "ничего"
-      }
-    },
-    {
-      "update_id": 611506610,
-      "message": {
-        "message_id": 219,
-        "from": {
-          "id": 221824550,
-          "is_bot": false,
-          "first_name": "Augustine",
-          "last_name": "Аydukevich",
-          "username": "otrue",
-          "language_code": "ru"
-        },
-        "chat": {
-          "id": 221824550,
-          "first_name": "Augustine",
-          "last_name": "Аydukevich",
-          "username": "otrue",
-          "type": "private"
-        },
-        "date": 1556036817,
+        "date": 1556275813,
         "text": "привет"
       }
     },
     {
-      "update_id": 611506611,
+      "update_id": 611506664,
       "message": {
-        "message_id": 220,
+        "message_id": 514,
         "from": {
           "id": 221824550,
           "is_bot": false,
@@ -142,14 +533,14 @@
           "username": "otrue",
           "type": "private"
         },
-        "date": 1556036825,
-        "text": "Привет"
+        "date": 1556275825,
+        "text": "нннн"
       }
     },
     {
-      "update_id": 611506612,
+      "update_id": 611506665,
       "message": {
-        "message_id": 221,
+        "message_id": 515,
         "from": {
           "id": 221824550,
           "is_bot": false,
@@ -165,14 +556,14 @@
           "username": "otrue",
           "type": "private"
         },
-        "date": 1556036831,
-        "text": "пока"
+        "date": 1556276003,
+        "text": "ghbdtn"
       }
     },
     {
-      "update_id": 611506613,
+      "update_id": 611506666,
       "message": {
-        "message_id": 223,
+        "message_id": 516,
         "from": {
           "id": 221824550,
           "is_bot": false,
@@ -188,14 +579,14 @@
           "username": "otrue",
           "type": "private"
         },
-        "date": 1556036891,
+        "date": 1556276013,
         "text": "привет"
       }
     },
     {
-      "update_id": 611506614,
+      "update_id": 611506667,
       "message": {
-        "message_id": 238,
+        "message_id": 523,
         "from": {
           "id": 221824550,
           "is_bot": false,
@@ -211,14 +602,14 @@
           "username": "otrue",
           "type": "private"
         },
-        "date": 1556036953,
+        "date": 1556276282,
         "text": "пока"
       }
     },
     {
-      "update_id": 611506615,
+      "update_id": 611506668,
       "message": {
-        "message_id": 240,
+        "message_id": 527,
         "from": {
           "id": 221824550,
           "is_bot": false,
@@ -234,14 +625,14 @@
           "username": "otrue",
           "type": "private"
         },
-        "date": 1556036958,
+        "date": 1556290483,
         "text": "привет"
       }
     },
     {
-      "update_id": 611506616,
+      "update_id": 611506669,
       "message": {
-        "message_id": 245,
+        "message_id": 529,
         "from": {
           "id": 221824550,
           "is_bot": false,
@@ -257,14 +648,14 @@
           "username": "otrue",
           "type": "private"
         },
-        "date": 1556036963,
+        "date": 1556290488,
         "text": "пока"
       }
     },
     {
-      "update_id": 611506617,
+      "update_id": 611506670,
       "message": {
-        "message_id": 249,
+        "message_id": 531,
         "from": {
           "id": 221824550,
           "is_bot": false,
@@ -280,14 +671,60 @@
           "username": "otrue",
           "type": "private"
         },
-        "date": 1556037283,
+        "date": 1556290495,
+        "text": "нихуя"
+      }
+    },
+    {
+      "update_id": 611506671,
+      "message": {
+        "message_id": 532,
+        "from": {
+          "id": 221824550,
+          "is_bot": false,
+          "first_name": "Augustine",
+          "last_name": "Аydukevich",
+          "username": "otrue",
+          "language_code": "ru"
+        },
+        "chat": {
+          "id": 221824550,
+          "first_name": "Augustine",
+          "last_name": "Аydukevich",
+          "username": "otrue",
+          "type": "private"
+        },
+        "date": 1556290500,
+        "text": "бла бла бла"
+      }
+    },
+    {
+      "update_id": 611506672,
+      "message": {
+        "message_id": 533,
+        "from": {
+          "id": 221824550,
+          "is_bot": false,
+          "first_name": "Augustine",
+          "last_name": "Аydukevich",
+          "username": "otrue",
+          "language_code": "ru"
+        },
+        "chat": {
+          "id": 221824550,
+          "first_name": "Augustine",
+          "last_name": "Аydukevich",
+          "username": "otrue",
+          "type": "private"
+        },
+        "date": 1556290503,
         "text": "привет"
       }
     },
     {
-      "update_id": 611506618,
+      "update_id": 611506673,
       "message": {
-        "message_id": 252,
+        "message_id": 537,
         "from": {
           "id": 221824550,
           "is_bot": false,
@@ -303,14 +740,21 @@
           "username": "otrue",
           "type": "private"
         },
-        "date": 1556037303,
-        "text": "пока"
+        "date": 1556293686,
+        "text": "/usd",
+        "entities": [
+          {
+            "offset": 0,
+            "length": 4,
+            "type": "bot_command"
+          }
+        ]
       }
     },
     {
-      "update_id": 611506619,
+      "update_id": 611506674,
       "message": {
-        "message_id": 255,
+        "message_id": 542,
         "from": {
           "id": 221824550,
           "is_bot": false,
@@ -326,7 +770,157 @@
           "username": "otrue",
           "type": "private"
         },
-        "date": 1556037331,
+        "date": 1556294534,
+        "text": "/usd",
+        "entities": [
+          {
+            "offset": 0,
+            "length": 4,
+            "type": "bot_command"
+          }
+        ]
+      }
+    },
+    {
+      "update_id": 611506675,
+      "message": {
+        "message_id": 546,
+        "from": {
+          "id": 221824550,
+          "is_bot": false,
+          "first_name": "Augustine",
+          "last_name": "Аydukevich",
+          "username": "otrue",
+          "language_code": "ru"
+        },
+        "chat": {
+          "id": 221824550,
+          "first_name": "Augustine",
+          "last_name": "Аydukevich",
+          "username": "otrue",
+          "type": "private"
+        },
+        "date": 1556294846,
+        "text": "/usd",
+        "entities": [
+          {
+            "offset": 0,
+            "length": 4,
+            "type": "bot_command"
+          }
+        ]
+      }
+    },
+    {
+      "update_id": 611506676,
+      "message": {
+        "message_id": 549,
+        "from": {
+          "id": 221824550,
+          "is_bot": false,
+          "first_name": "Augustine",
+          "last_name": "Аydukevich",
+          "username": "otrue",
+          "language_code": "ru"
+        },
+        "chat": {
+          "id": 221824550,
+          "first_name": "Augustine",
+          "last_name": "Аydukevich",
+          "username": "otrue",
+          "type": "private"
+        },
+        "date": 1556295422,
+        "text": "/eur",
+        "entities": [
+          {
+            "offset": 0,
+            "length": 4,
+            "type": "bot_command"
+          }
+        ]
+      }
+    },
+    {
+      "update_id": 611506677,
+      "message": {
+        "message_id": 550,
+        "from": {
+          "id": 221824550,
+          "is_bot": false,
+          "first_name": "Augustine",
+          "last_name": "Аydukevich",
+          "username": "otrue",
+          "language_code": "ru"
+        },
+        "chat": {
+          "id": 221824550,
+          "first_name": "Augustine",
+          "last_name": "Аydukevich",
+          "username": "otrue",
+          "type": "private"
+        },
+        "date": 1556295436,
+        "text": "/eur",
+        "entities": [
+          {
+            "offset": 0,
+            "length": 4,
+            "type": "bot_command"
+          }
+        ]
+      }
+    },
+    {
+      "update_id": 611506678,
+      "message": {
+        "message_id": 553,
+        "from": {
+          "id": 221824550,
+          "is_bot": false,
+          "first_name": "Augustine",
+          "last_name": "Аydukevich",
+          "username": "otrue",
+          "language_code": "ru"
+        },
+        "chat": {
+          "id": 221824550,
+          "first_name": "Augustine",
+          "last_name": "Аydukevich",
+          "username": "otrue",
+          "type": "private"
+        },
+        "date": 1556295784,
+        "text": "/usd",
+        "entities": [
+          {
+            "offset": 0,
+            "length": 4,
+            "type": "bot_command"
+          }
+        ]
+      }
+    },
+    {
+      "update_id": 611506679,
+      "message": {
+        "message_id": 557,
+        "from": {
+          "id": 221824550,
+          "is_bot": false,
+          "first_name": "Augustine",
+          "last_name": "Аydukevich",
+          "username": "otrue",
+          "language_code": "ru"
+        },
+        "chat": {
+          "id": 221824550,
+          "first_name": "Augustine",
+          "last_name": "Аydukevich",
+          "username": "otrue",
+          "type": "private"
+        },
+        "date": 1556295910,
         "text": "/start",
         "entities": [
           {
@@ -338,9 +932,9 @@
       }
     },
     {
-      "update_id": 611506620,
+      "update_id": 611506680,
       "message": {
-        "message_id": 256,
+        "message_id": 558,
         "from": {
           "id": 221824550,
           "is_bot": false,
@@ -356,14 +950,21 @@
           "username": "otrue",
           "type": "private"
         },
-        "date": 1556037336,
-        "text": "Привет"
+        "date": 1556295916,
+        "text": "/help",
+        "entities": [
+          {
+            "offset": 0,
+            "length": 5,
+            "type": "bot_command"
+          }
+        ]
       }
     },
     {
-      "update_id": 611506621,
+      "update_id": 611506681,
       "message": {
-        "message_id": 257,
+        "message_id": 559,
         "from": {
           "id": 221824550,
           "is_bot": false,
@@ -379,14 +980,21 @@
           "username": "otrue",
           "type": "private"
         },
-        "date": 1556037344,
-        "text": "привет"
+        "date": 1556295965,
+        "text": "/help",
+        "entities": [
+          {
+            "offset": 0,
+            "length": 5,
+            "type": "bot_command"
+          }
+        ]
       }
     },
     {
-      "update_id": 611506622,
+      "update_id": 611506682,
       "message": {
-        "message_id": 264,
+        "message_id": 560,
         "from": {
           "id": 221824550,
           "is_bot": false,
@@ -402,14 +1010,21 @@
           "username": "otrue",
           "type": "private"
         },
-        "date": 1556037364,
-        "text": "пока"
+        "date": 1556295973,
+        "text": "/help",
+        "entities": [
+          {
+            "offset": 0,
+            "length": 5,
+            "type": "bot_command"
+          }
+        ]
       }
     },
     {
-      "update_id": 611506623,
+      "update_id": 611506683,
       "message": {
-        "message_id": 265,
+        "message_id": 561,
         "from": {
           "id": 221824550,
           "is_bot": false,
@@ -425,14 +1040,21 @@
           "username": "otrue",
           "type": "private"
         },
-        "date": 1556037567,
-        "text": "привет"
+        "date": 1556296318,
+        "text": "/help",
+        "entities": [
+          {
+            "offset": 0,
+            "length": 5,
+            "type": "bot_command"
+          }
+        ]
       }
     },
     {
-      "update_id": 611506624,
+      "update_id": 611506684,
       "message": {
-        "message_id": 267,
+        "message_id": 562,
         "from": {
           "id": 221824550,
           "is_bot": false,
@@ -448,8 +1070,1637 @@
           "username": "otrue",
           "type": "private"
         },
-        "date": 1556037571,
-        "text": "пока"
+        "date": 1556296325,
+        "text": "/usd",
+        "entities": [
+          {
+            "offset": 0,
+            "length": 4,
+            "type": "bot_command"
+          }
+        ]
+      }
+    },
+    {
+      "update_id": 611506685,
+      "message": {
+        "message_id": 564,
+        "from": {
+          "id": 221824550,
+          "is_bot": false,
+          "first_name": "Augustine",
+          "last_name": "Аydukevich",
+          "username": "otrue",
+          "language_code": "ru"
+        },
+        "chat": {
+          "id": 221824550,
+          "first_name": "Augustine",
+          "last_name": "Аydukevich",
+          "username": "otrue",
+          "type": "private"
+        },
+        "date": 1556296340,
+        "text": "/usd",
+        "entities": [
+          {
+            "offset": 0,
+            "length": 4,
+            "type": "bot_command"
+          }
+        ]
+      }
+    },
+    {
+      "update_id": 611506686,
+      "message": {
+        "message_id": 566,
+        "from": {
+          "id": 221824550,
+          "is_bot": false,
+          "first_name": "Augustine",
+          "last_name": "Аydukevich",
+          "username": "otrue",
+          "language_code": "ru"
+        },
+        "chat": {
+          "id": 221824550,
+          "first_name": "Augustine",
+          "last_name": "Аydukevich",
+          "username": "otrue",
+          "type": "private"
+        },
+        "date": 1556296351,
+        "text": "/help",
+        "entities": [
+          {
+            "offset": 0,
+            "length": 5,
+            "type": "bot_command"
+          }
+        ]
+      }
+    },
+    {
+      "update_id": 611506687,
+      "message": {
+        "message_id": 568,
+        "from": {
+          "id": 221824550,
+          "is_bot": false,
+          "first_name": "Augustine",
+          "last_name": "Аydukevich",
+          "username": "otrue",
+          "language_code": "ru"
+        },
+        "chat": {
+          "id": 221824550,
+          "first_name": "Augustine",
+          "last_name": "Аydukevich",
+          "username": "otrue",
+          "type": "private"
+        },
+        "date": 1556296959,
+        "text": "/help",
+        "entities": [
+          {
+            "offset": 0,
+            "length": 5,
+            "type": "bot_command"
+          }
+        ]
+      }
+    },
+    {
+      "update_id": 611506688,
+      "message": {
+        "message_id": 577,
+        "from": {
+          "id": 221824550,
+          "is_bot": false,
+          "first_name": "Augustine",
+          "last_name": "Аydukevich",
+          "username": "otrue",
+          "language_code": "ru"
+        },
+        "chat": {
+          "id": 221824550,
+          "first_name": "Augustine",
+          "last_name": "Аydukevich",
+          "username": "otrue",
+          "type": "private"
+        },
+        "date": 1556297413,
+        "text": "/usd",
+        "entities": [
+          {
+            "offset": 0,
+            "length": 4,
+            "type": "bot_command"
+          }
+        ]
+      }
+    },
+    {
+      "update_id": 611506689,
+      "message": {
+        "message_id": 581,
+        "from": {
+          "id": 221824550,
+          "is_bot": false,
+          "first_name": "Augustine",
+          "last_name": "Аydukevich",
+          "username": "otrue",
+          "language_code": "ru"
+        },
+        "chat": {
+          "id": 221824550,
+          "first_name": "Augustine",
+          "last_name": "Аydukevich",
+          "username": "otrue",
+          "type": "private"
+        },
+        "date": 1556298060,
+        "text": "usd"
+      }
+    },
+    {
+      "update_id": 611506690,
+      "message": {
+        "message_id": 582,
+        "from": {
+          "id": 221824550,
+          "is_bot": false,
+          "first_name": "Augustine",
+          "last_name": "Аydukevich",
+          "username": "otrue",
+          "language_code": "ru"
+        },
+        "chat": {
+          "id": 221824550,
+          "first_name": "Augustine",
+          "last_name": "Аydukevich",
+          "username": "otrue",
+          "type": "private"
+        },
+        "date": 1556298072,
+        "text": "/usd",
+        "entities": [
+          {
+            "offset": 0,
+            "length": 4,
+            "type": "bot_command"
+          }
+        ]
+      }
+    },
+    {
+      "update_id": 611506691,
+      "message": {
+        "message_id": 584,
+        "from": {
+          "id": 221824550,
+          "is_bot": false,
+          "first_name": "Augustine",
+          "last_name": "Аydukevich",
+          "username": "otrue",
+          "language_code": "ru"
+        },
+        "chat": {
+          "id": 221824550,
+          "first_name": "Augustine",
+          "last_name": "Аydukevich",
+          "username": "otrue",
+          "type": "private"
+        },
+        "date": 1556298095,
+        "text": "fh"
+      }
+    },
+    {
+      "update_id": 611506692,
+      "message": {
+        "message_id": 585,
+        "from": {
+          "id": 221824550,
+          "is_bot": false,
+          "first_name": "Augustine",
+          "last_name": "Аydukevich",
+          "username": "otrue",
+          "language_code": "ru"
+        },
+        "chat": {
+          "id": 221824550,
+          "first_name": "Augustine",
+          "last_name": "Аydukevich",
+          "username": "otrue",
+          "type": "private"
+        },
+        "date": 1556298115,
+        "text": "/usd",
+        "entities": [
+          {
+            "offset": 0,
+            "length": 4,
+            "type": "bot_command"
+          }
+        ]
+      }
+    },
+    {
+      "update_id": 611506693,
+      "message": {
+        "message_id": 587,
+        "from": {
+          "id": 221824550,
+          "is_bot": false,
+          "first_name": "Augustine",
+          "last_name": "Аydukevich",
+          "username": "otrue",
+          "language_code": "ru"
+        },
+        "chat": {
+          "id": 221824550,
+          "first_name": "Augustine",
+          "last_name": "Аydukevich",
+          "username": "otrue",
+          "type": "private"
+        },
+        "date": 1556298120,
+        "text": "/help",
+        "entities": [
+          {
+            "offset": 0,
+            "length": 5,
+            "type": "bot_command"
+          }
+        ]
+      }
+    },
+    {
+      "update_id": 611506694,
+      "message": {
+        "message_id": 589,
+        "from": {
+          "id": 221824550,
+          "is_bot": false,
+          "first_name": "Augustine",
+          "last_name": "Аydukevich",
+          "username": "otrue",
+          "language_code": "ru"
+        },
+        "chat": {
+          "id": 221824550,
+          "first_name": "Augustine",
+          "last_name": "Аydukevich",
+          "username": "otrue",
+          "type": "private"
+        },
+        "date": 1556298882,
+        "text": "/start",
+        "entities": [
+          {
+            "offset": 0,
+            "length": 6,
+            "type": "bot_command"
+          }
+        ]
+      }
+    },
+    {
+      "update_id": 611506695,
+      "message": {
+        "message_id": 590,
+        "from": {
+          "id": 221824550,
+          "is_bot": false,
+          "first_name": "Augustine",
+          "last_name": "Аydukevich",
+          "username": "otrue",
+          "language_code": "ru"
+        },
+        "chat": {
+          "id": 221824550,
+          "first_name": "Augustine",
+          "last_name": "Аydukevich",
+          "username": "otrue",
+          "type": "private"
+        },
+        "date": 1556299023,
+        "text": "/start",
+        "entities": [
+          {
+            "offset": 0,
+            "length": 6,
+            "type": "bot_command"
+          }
+        ]
+      }
+    },
+    {
+      "update_id": 611506696,
+      "message": {
+        "message_id": 592,
+        "from": {
+          "id": 221824550,
+          "is_bot": false,
+          "first_name": "Augustine",
+          "last_name": "Аydukevich",
+          "username": "otrue",
+          "language_code": "ru"
+        },
+        "chat": {
+          "id": 221824550,
+          "first_name": "Augustine",
+          "last_name": "Аydukevich",
+          "username": "otrue",
+          "type": "private"
+        },
+        "date": 1556299047,
+        "text": "/start",
+        "entities": [
+          {
+            "offset": 0,
+            "length": 6,
+            "type": "bot_command"
+          }
+        ]
+      }
+    },
+    {
+      "update_id": 611506697,
+      "message": {
+        "message_id": 594,
+        "from": {
+          "id": 221824550,
+          "is_bot": false,
+          "first_name": "Augustine",
+          "last_name": "Аydukevich",
+          "username": "otrue",
+          "language_code": "ru"
+        },
+        "chat": {
+          "id": 221824550,
+          "first_name": "Augustine",
+          "last_name": "Аydukevich",
+          "username": "otrue",
+          "type": "private"
+        },
+        "date": 1556299057,
+        "text": "/usd",
+        "entities": [
+          {
+            "offset": 0,
+            "length": 4,
+            "type": "bot_command"
+          }
+        ]
+      }
+    },
+    {
+      "update_id": 611506698,
+      "message": {
+        "message_id": 596,
+        "from": {
+          "id": 221824550,
+          "is_bot": false,
+          "first_name": "Augustine",
+          "last_name": "Аydukevich",
+          "username": "otrue",
+          "language_code": "ru"
+        },
+        "chat": {
+          "id": 221824550,
+          "first_name": "Augustine",
+          "last_name": "Аydukevich",
+          "username": "otrue",
+          "type": "private"
+        },
+        "date": 1556299065,
+        "text": "/eur",
+        "entities": [
+          {
+            "offset": 0,
+            "length": 4,
+            "type": "bot_command"
+          }
+        ]
+      }
+    },
+    {
+      "update_id": 611506699,
+      "message": {
+        "message_id": 599,
+        "from": {
+          "id": 221824550,
+          "is_bot": false,
+          "first_name": "Augustine",
+          "last_name": "Аydukevich",
+          "username": "otrue",
+          "language_code": "ru"
+        },
+        "chat": {
+          "id": 221824550,
+          "first_name": "Augustine",
+          "last_name": "Аydukevich",
+          "username": "otrue",
+          "type": "private"
+        },
+        "date": 1556299172,
+        "text": "/usd",
+        "entities": [
+          {
+            "offset": 0,
+            "length": 4,
+            "type": "bot_command"
+          }
+        ]
+      }
+    },
+    {
+      "update_id": 611506700,
+      "message": {
+        "message_id": 601,
+        "from": {
+          "id": 221824550,
+          "is_bot": false,
+          "first_name": "Augustine",
+          "last_name": "Аydukevich",
+          "username": "otrue",
+          "language_code": "ru"
+        },
+        "chat": {
+          "id": 221824550,
+          "first_name": "Augustine",
+          "last_name": "Аydukevich",
+          "username": "otrue",
+          "type": "private"
+        },
+        "date": 1556299248,
+        "text": "usd"
+      }
+    },
+    {
+      "update_id": 611506701,
+      "message": {
+        "message_id": 602,
+        "from": {
+          "id": 221824550,
+          "is_bot": false,
+          "first_name": "Augustine",
+          "last_name": "Аydukevich",
+          "username": "otrue",
+          "language_code": "ru"
+        },
+        "chat": {
+          "id": 221824550,
+          "first_name": "Augustine",
+          "last_name": "Аydukevich",
+          "username": "otrue",
+          "type": "private"
+        },
+        "date": 1556300926,
+        "text": "/start",
+        "entities": [
+          {
+            "offset": 0,
+            "length": 6,
+            "type": "bot_command"
+          }
+        ]
+      }
+    },
+    {
+      "update_id": 611506702,
+      "message": {
+        "message_id": 603,
+        "from": {
+          "id": 221824550,
+          "is_bot": false,
+          "first_name": "Augustine",
+          "last_name": "Аydukevich",
+          "username": "otrue",
+          "language_code": "ru"
+        },
+        "chat": {
+          "id": 221824550,
+          "first_name": "Augustine",
+          "last_name": "Аydukevich",
+          "username": "otrue",
+          "type": "private"
+        },
+        "date": 1556301155,
+        "text": "usd"
+      }
+    },
+    {
+      "update_id": 611506703,
+      "message": {
+        "message_id": 604,
+        "from": {
+          "id": 221824550,
+          "is_bot": false,
+          "first_name": "Augustine",
+          "last_name": "Аydukevich",
+          "username": "otrue",
+          "language_code": "ru"
+        },
+        "chat": {
+          "id": 221824550,
+          "first_name": "Augustine",
+          "last_name": "Аydukevich",
+          "username": "otrue",
+          "type": "private"
+        },
+        "date": 1556301221,
+        "text": "/usd",
+        "entities": [
+          {
+            "offset": 0,
+            "length": 4,
+            "type": "bot_command"
+          }
+        ]
+      }
+    },
+    {
+      "update_id": 611506704,
+      "message": {
+        "message_id": 605,
+        "from": {
+          "id": 221824550,
+          "is_bot": false,
+          "first_name": "Augustine",
+          "last_name": "Аydukevich",
+          "username": "otrue",
+          "language_code": "ru"
+        },
+        "chat": {
+          "id": 221824550,
+          "first_name": "Augustine",
+          "last_name": "Аydukevich",
+          "username": "otrue",
+          "type": "private"
+        },
+        "date": 1556301278,
+        "text": "usd"
+      }
+    },
+    {
+      "update_id": 611506705,
+      "message": {
+        "message_id": 606,
+        "from": {
+          "id": 221824550,
+          "is_bot": false,
+          "first_name": "Augustine",
+          "last_name": "Аydukevich",
+          "username": "otrue",
+          "language_code": "ru"
+        },
+        "chat": {
+          "id": 221824550,
+          "first_name": "Augustine",
+          "last_name": "Аydukevich",
+          "username": "otrue",
+          "type": "private"
+        },
+        "date": 1556301294,
+        "text": "usd"
+      }
+    },
+    {
+      "update_id": 611506706,
+      "message": {
+        "message_id": 607,
+        "from": {
+          "id": 221824550,
+          "is_bot": false,
+          "first_name": "Augustine",
+          "last_name": "Аydukevich",
+          "username": "otrue",
+          "language_code": "ru"
+        },
+        "chat": {
+          "id": 221824550,
+          "first_name": "Augustine",
+          "last_name": "Аydukevich",
+          "username": "otrue",
+          "type": "private"
+        },
+        "date": 1556301341,
+        "text": "usd"
+      }
+    },
+    {
+      "update_id": 611506707,
+      "message": {
+        "message_id": 608,
+        "from": {
+          "id": 221824550,
+          "is_bot": false,
+          "first_name": "Augustine",
+          "last_name": "Аydukevich",
+          "username": "otrue",
+          "language_code": "ru"
+        },
+        "chat": {
+          "id": 221824550,
+          "first_name": "Augustine",
+          "last_name": "Аydukevich",
+          "username": "otrue",
+          "type": "private"
+        },
+        "date": 1556301349,
+        "text": "/usd",
+        "entities": [
+          {
+            "offset": 0,
+            "length": 4,
+            "type": "bot_command"
+          }
+        ]
+      }
+    },
+    {
+      "update_id": 611506708,
+      "message": {
+        "message_id": 609,
+        "from": {
+          "id": 221824550,
+          "is_bot": false,
+          "first_name": "Augustine",
+          "last_name": "Аydukevich",
+          "username": "otrue",
+          "language_code": "ru"
+        },
+        "chat": {
+          "id": 221824550,
+          "first_name": "Augustine",
+          "last_name": "Аydukevich",
+          "username": "otrue",
+          "type": "private"
+        },
+        "date": 1556301393,
+        "text": "/start",
+        "entities": [
+          {
+            "offset": 0,
+            "length": 6,
+            "type": "bot_command"
+          }
+        ]
+      }
+    },
+    {
+      "update_id": 611506709,
+      "message": {
+        "message_id": 610,
+        "from": {
+          "id": 221824550,
+          "is_bot": false,
+          "first_name": "Augustine",
+          "last_name": "Аydukevich",
+          "username": "otrue",
+          "language_code": "ru"
+        },
+        "chat": {
+          "id": 221824550,
+          "first_name": "Augustine",
+          "last_name": "Аydukevich",
+          "username": "otrue",
+          "type": "private"
+        },
+        "date": 1556301463,
+        "text": "/usd",
+        "entities": [
+          {
+            "offset": 0,
+            "length": 4,
+            "type": "bot_command"
+          }
+        ]
+      }
+    },
+    {
+      "update_id": 611506710,
+      "message": {
+        "message_id": 611,
+        "from": {
+          "id": 221824550,
+          "is_bot": false,
+          "first_name": "Augustine",
+          "last_name": "Аydukevich",
+          "username": "otrue",
+          "language_code": "ru"
+        },
+        "chat": {
+          "id": 221824550,
+          "first_name": "Augustine",
+          "last_name": "Аydukevich",
+          "username": "otrue",
+          "type": "private"
+        },
+        "date": 1556301507,
+        "text": "/eur",
+        "entities": [
+          {
+            "offset": 0,
+            "length": 4,
+            "type": "bot_command"
+          }
+        ]
+      }
+    },
+    {
+      "update_id": 611506711,
+      "message": {
+        "message_id": 612,
+        "from": {
+          "id": 221824550,
+          "is_bot": false,
+          "first_name": "Augustine",
+          "last_name": "Аydukevich",
+          "username": "otrue",
+          "language_code": "ru"
+        },
+        "chat": {
+          "id": 221824550,
+          "first_name": "Augustine",
+          "last_name": "Аydukevich",
+          "username": "otrue",
+          "type": "private"
+        },
+        "date": 1556301522,
+        "text": "/kgs",
+        "entities": [
+          {
+            "offset": 0,
+            "length": 4,
+            "type": "bot_command"
+          }
+        ]
+      }
+    },
+    {
+      "update_id": 611506712,
+      "message": {
+        "message_id": 613,
+        "from": {
+          "id": 221824550,
+          "is_bot": false,
+          "first_name": "Augustine",
+          "last_name": "Аydukevich",
+          "username": "otrue",
+          "language_code": "ru"
+        },
+        "chat": {
+          "id": 221824550,
+          "first_name": "Augustine",
+          "last_name": "Аydukevich",
+          "username": "otrue",
+          "type": "private"
+        },
+        "date": 1556301528,
+        "text": "/r",
+        "entities": [
+          {
+            "offset": 0,
+            "length": 2,
+            "type": "bot_command"
+          }
+        ]
+      }
+    },
+    {
+      "update_id": 611506713,
+      "message": {
+        "message_id": 614,
+        "from": {
+          "id": 221824550,
+          "is_bot": false,
+          "first_name": "Augustine",
+          "last_name": "Аydukevich",
+          "username": "otrue",
+          "language_code": "ru"
+        },
+        "chat": {
+          "id": 221824550,
+          "first_name": "Augustine",
+          "last_name": "Аydukevich",
+          "username": "otrue",
+          "type": "private"
+        },
+        "date": 1556301540,
+        "text": "/sta",
+        "entities": [
+          {
+            "offset": 0,
+            "length": 4,
+            "type": "bot_command"
+          }
+        ]
+      }
+    },
+    {
+      "update_id": 611506714,
+      "message": {
+        "message_id": 615,
+        "from": {
+          "id": 221824550,
+          "is_bot": false,
+          "first_name": "Augustine",
+          "last_name": "Аydukevich",
+          "username": "otrue",
+          "language_code": "ru"
+        },
+        "chat": {
+          "id": 221824550,
+          "first_name": "Augustine",
+          "last_name": "Аydukevich",
+          "username": "otrue",
+          "type": "private"
+        },
+        "date": 1556301697,
+        "text": "/sta",
+        "entities": [
+          {
+            "offset": 0,
+            "length": 4,
+            "type": "bot_command"
+          }
+        ]
+      }
+    },
+    {
+      "update_id": 611506715,
+      "message": {
+        "message_id": 616,
+        "from": {
+          "id": 221824550,
+          "is_bot": false,
+          "first_name": "Augustine",
+          "last_name": "Аydukevich",
+          "username": "otrue",
+          "language_code": "ru"
+        },
+        "chat": {
+          "id": 221824550,
+          "first_name": "Augustine",
+          "last_name": "Аydukevich",
+          "username": "otrue",
+          "type": "private"
+        },
+        "date": 1556301700,
+        "text": "/r",
+        "entities": [
+          {
+            "offset": 0,
+            "length": 2,
+            "type": "bot_command"
+          }
+        ]
+      }
+    },
+    {
+      "update_id": 611506716,
+      "message": {
+        "message_id": 617,
+        "from": {
+          "id": 221824550,
+          "is_bot": false,
+          "first_name": "Augustine",
+          "last_name": "Аydukevich",
+          "username": "otrue",
+          "language_code": "ru"
+        },
+        "chat": {
+          "id": 221824550,
+          "first_name": "Augustine",
+          "last_name": "Аydukevich",
+          "username": "otrue",
+          "type": "private"
+        },
+        "date": 1556301702,
+        "text": "/start",
+        "entities": [
+          {
+            "offset": 0,
+            "length": 6,
+            "type": "bot_command"
+          }
+        ]
+      }
+    },
+    {
+      "update_id": 611506717,
+      "message": {
+        "message_id": 619,
+        "from": {
+          "id": 221824550,
+          "is_bot": false,
+          "first_name": "Augustine",
+          "last_name": "Аydukevich",
+          "username": "otrue",
+          "language_code": "ru"
+        },
+        "chat": {
+          "id": 221824550,
+          "first_name": "Augustine",
+          "last_name": "Аydukevich",
+          "username": "otrue",
+          "type": "private"
+        },
+        "date": 1556301714,
+        "text": "/r",
+        "entities": [
+          {
+            "offset": 0,
+            "length": 2,
+            "type": "bot_command"
+          }
+        ]
+      }
+    },
+    {
+      "update_id": 611506718,
+      "message": {
+        "message_id": 620,
+        "from": {
+          "id": 221824550,
+          "is_bot": false,
+          "first_name": "Augustine",
+          "last_name": "Аydukevich",
+          "username": "otrue",
+          "language_code": "ru"
+        },
+        "chat": {
+          "id": 221824550,
+          "first_name": "Augustine",
+          "last_name": "Аydukevich",
+          "username": "otrue",
+          "type": "private"
+        },
+        "date": 1556301718,
+        "text": "/usd",
+        "entities": [
+          {
+            "offset": 0,
+            "length": 4,
+            "type": "bot_command"
+          }
+        ]
+      }
+    },
+    {
+      "update_id": 611506719,
+      "message": {
+        "message_id": 622,
+        "from": {
+          "id": 221824550,
+          "is_bot": false,
+          "first_name": "Augustine",
+          "last_name": "Аydukevich",
+          "username": "otrue",
+          "language_code": "ru"
+        },
+        "chat": {
+          "id": 221824550,
+          "first_name": "Augustine",
+          "last_name": "Аydukevich",
+          "username": "otrue",
+          "type": "private"
+        },
+        "date": 1556301860,
+        "text": "/czk",
+        "entities": [
+          {
+            "offset": 0,
+            "length": 4,
+            "type": "bot_command"
+          }
+        ]
+      }
+    },
+    {
+      "update_id": 611506720,
+      "message": {
+        "message_id": 624,
+        "from": {
+          "id": 221824550,
+          "is_bot": false,
+          "first_name": "Augustine",
+          "last_name": "Аydukevich",
+          "username": "otrue",
+          "language_code": "ru"
+        },
+        "chat": {
+          "id": 221824550,
+          "first_name": "Augustine",
+          "last_name": "Аydukevich",
+          "username": "otrue",
+          "type": "private"
+        },
+        "date": 1556301865,
+        "text": "/nok",
+        "entities": [
+          {
+            "offset": 0,
+            "length": 4,
+            "type": "bot_command"
+          }
+        ]
+      }
+    },
+    {
+      "update_id": 611506721,
+      "message": {
+        "message_id": 626,
+        "from": {
+          "id": 221824550,
+          "is_bot": false,
+          "first_name": "Augustine",
+          "last_name": "Аydukevich",
+          "username": "otrue",
+          "language_code": "ru"
+        },
+        "chat": {
+          "id": 221824550,
+          "first_name": "Augustine",
+          "last_name": "Аydukevich",
+          "username": "otrue",
+          "type": "private"
+        },
+        "date": 1556301872,
+        "text": "ghh"
+      }
+    },
+    {
+      "update_id": 611506722,
+      "message": {
+        "message_id": 627,
+        "from": {
+          "id": 221824550,
+          "is_bot": false,
+          "first_name": "Augustine",
+          "last_name": "Аydukevich",
+          "username": "otrue",
+          "language_code": "ru"
+        },
+        "chat": {
+          "id": 221824550,
+          "first_name": "Augustine",
+          "last_name": "Аydukevich",
+          "username": "otrue",
+          "type": "private"
+        },
+        "date": 1556301879,
+        "text": "/k",
+        "entities": [
+          {
+            "offset": 0,
+            "length": 2,
+            "type": "bot_command"
+          }
+        ]
+      }
+    },
+    {
+      "update_id": 611506723,
+      "message": {
+        "message_id": 628,
+        "from": {
+          "id": 221824550,
+          "is_bot": false,
+          "first_name": "Augustine",
+          "last_name": "Аydukevich",
+          "username": "otrue",
+          "language_code": "ru"
+        },
+        "chat": {
+          "id": 221824550,
+          "first_name": "Augustine",
+          "last_name": "Аydukevich",
+          "username": "otrue",
+          "type": "private"
+        },
+        "date": 1556301984,
+        "text": "/czk",
+        "entities": [
+          {
+            "offset": 0,
+            "length": 4,
+            "type": "bot_command"
+          }
+        ]
+      }
+    },
+    {
+      "update_id": 611506724,
+      "message": {
+        "message_id": 629,
+        "from": {
+          "id": 221824550,
+          "is_bot": false,
+          "first_name": "Augustine",
+          "last_name": "Аydukevich",
+          "username": "otrue",
+          "language_code": "ru"
+        },
+        "chat": {
+          "id": 221824550,
+          "first_name": "Augustine",
+          "last_name": "Аydukevich",
+          "username": "otrue",
+          "type": "private"
+        },
+        "date": 1556301990,
+        "text": "/czk",
+        "entities": [
+          {
+            "offset": 0,
+            "length": 4,
+            "type": "bot_command"
+          }
+        ]
+      }
+    },
+    {
+      "update_id": 611506725,
+      "message": {
+        "message_id": 631,
+        "from": {
+          "id": 221824550,
+          "is_bot": false,
+          "first_name": "Augustine",
+          "last_name": "Аydukevich",
+          "username": "otrue",
+          "language_code": "ru"
+        },
+        "chat": {
+          "id": 221824550,
+          "first_name": "Augustine",
+          "last_name": "Аydukevich",
+          "username": "otrue",
+          "type": "private"
+        },
+        "date": 1556302008,
+        "text": "/k",
+        "entities": [
+          {
+            "offset": 0,
+            "length": 2,
+            "type": "bot_command"
+          }
+        ]
+      }
+    },
+    {
+      "update_id": 611506726,
+      "message": {
+        "message_id": 632,
+        "from": {
+          "id": 221824550,
+          "is_bot": false,
+          "first_name": "Augustine",
+          "last_name": "Аydukevich",
+          "username": "otrue",
+          "language_code": "ru"
+        },
+        "chat": {
+          "id": 221824550,
+          "first_name": "Augustine",
+          "last_name": "Аydukevich",
+          "username": "otrue",
+          "type": "private"
+        },
+        "date": 1556302200,
+        "text": "/k",
+        "entities": [
+          {
+            "offset": 0,
+            "length": 2,
+            "type": "bot_command"
+          }
+        ]
+      }
+    },
+    {
+      "update_id": 611506727,
+      "message": {
+        "message_id": 633,
+        "from": {
+          "id": 221824550,
+          "is_bot": false,
+          "first_name": "Augustine",
+          "last_name": "Аydukevich",
+          "username": "otrue",
+          "language_code": "ru"
+        },
+        "chat": {
+          "id": 221824550,
+          "first_name": "Augustine",
+          "last_name": "Аydukevich",
+          "username": "otrue",
+          "type": "private"
+        },
+        "date": 1556302201,
+        "text": "/czk",
+        "entities": [
+          {
+            "offset": 0,
+            "length": 4,
+            "type": "bot_command"
+          }
+        ]
+      }
+    },
+    {
+      "update_id": 611506728,
+      "message": {
+        "message_id": 635,
+        "from": {
+          "id": 221824550,
+          "is_bot": false,
+          "first_name": "Augustine",
+          "last_name": "Аydukevich",
+          "username": "otrue",
+          "language_code": "ru"
+        },
+        "chat": {
+          "id": 221824550,
+          "first_name": "Augustine",
+          "last_name": "Аydukevich",
+          "username": "otrue",
+          "type": "private"
+        },
+        "date": 1556302206,
+        "text": "/k",
+        "entities": [
+          {
+            "offset": 0,
+            "length": 2,
+            "type": "bot_command"
+          }
+        ]
+      }
+    },
+    {
+      "update_id": 611506729,
+      "message": {
+        "message_id": 636,
+        "from": {
+          "id": 221824550,
+          "is_bot": false,
+          "first_name": "Augustine",
+          "last_name": "Аydukevich",
+          "username": "otrue",
+          "language_code": "ru"
+        },
+        "chat": {
+          "id": 221824550,
+          "first_name": "Augustine",
+          "last_name": "Аydukevich",
+          "username": "otrue",
+          "type": "private"
+        },
+        "date": 1556302209,
+        "text": "/nok",
+        "entities": [
+          {
+            "offset": 0,
+            "length": 4,
+            "type": "bot_command"
+          }
+        ]
+      }
+    },
+    {
+      "update_id": 611506730,
+      "message": {
+        "message_id": 638,
+        "from": {
+          "id": 221824550,
+          "is_bot": false,
+          "first_name": "Augustine",
+          "last_name": "Аydukevich",
+          "username": "otrue",
+          "language_code": "ru"
+        },
+        "chat": {
+          "id": 221824550,
+          "first_name": "Augustine",
+          "last_name": "Аydukevich",
+          "username": "otrue",
+          "type": "private"
+        },
+        "date": 1556302215,
+        "text": "/start",
+        "entities": [
+          {
+            "offset": 0,
+            "length": 6,
+            "type": "bot_command"
+          }
+        ]
+      }
+    },
+    {
+      "update_id": 611506731,
+      "message": {
+        "message_id": 640,
+        "from": {
+          "id": 518019441,
+          "is_bot": false,
+          "first_name": "Анечка",
+          "language_code": "ru"
+        },
+        "chat": {
+          "id": 518019441,
+          "first_name": "Анечка",
+          "type": "private"
+        },
+        "date": 1556311966,
+        "text": "/start",
+        "entities": [
+          {
+            "offset": 0,
+            "length": 6,
+            "type": "bot_command"
+          }
+        ]
+      }
+    },
+    {
+      "update_id": 611506732,
+      "message": {
+        "message_id": 642,
+        "from": {
+          "id": 518019441,
+          "is_bot": false,
+          "first_name": "Анечка",
+          "language_code": "ru"
+        },
+        "chat": {
+          "id": 518019441,
+          "first_name": "Анечка",
+          "type": "private"
+        },
+        "date": 1556311971,
+        "text": "/bgn",
+        "entities": [
+          {
+            "offset": 0,
+            "length": 4,
+            "type": "bot_command"
+          }
+        ]
+      }
+    },
+    {
+      "update_id": 611506733,
+      "message": {
+        "message_id": 643,
+        "from": {
+          "id": 518019441,
+          "is_bot": false,
+          "first_name": "Анечка",
+          "language_code": "ru"
+        },
+        "chat": {
+          "id": 518019441,
+          "first_name": "Анечка",
+          "type": "private"
+        },
+        "date": 1556311976,
+        "text": "/usd",
+        "entities": [
+          {
+            "offset": 0,
+            "length": 4,
+            "type": "bot_command"
+          }
+        ]
+      }
+    },
+    {
+      "update_id": 611506734,
+      "message": {
+        "message_id": 645,
+        "from": {
+          "id": 518019441,
+          "is_bot": false,
+          "first_name": "Анечка",
+          "language_code": "ru"
+        },
+        "chat": {
+          "id": 518019441,
+          "first_name": "Анечка",
+          "type": "private"
+        },
+        "date": 1556311982,
+        "text": "/eur",
+        "entities": [
+          {
+            "offset": 0,
+            "length": 4,
+            "type": "bot_command"
+          }
+        ]
+      }
+    },
+    {
+      "update_id": 611506735,
+      "message": {
+        "message_id": 647,
+        "from": {
+          "id": 518019441,
+          "is_bot": false,
+          "first_name": "Анечка",
+          "language_code": "ru"
+        },
+        "chat": {
+          "id": 518019441,
+          "first_name": "Анечка",
+          "type": "private"
+        },
+        "date": 1556311990,
+        "text": "/czk",
+        "entities": [
+          {
+            "offset": 0,
+            "length": 4,
+            "type": "bot_command"
+          }
+        ]
+      }
+    },
+    {
+      "update_id": 611506736,
+      "message": {
+        "message_id": 648,
+        "from": {
+          "id": 221824550,
+          "is_bot": false,
+          "first_name": "Augustine",
+          "last_name": "Аydukevich",
+          "username": "otrue",
+          "language_code": "ru"
+        },
+        "chat": {
+          "id": 221824550,
+          "first_name": "Augustine",
+          "last_name": "Аydukevich",
+          "username": "otrue",
+          "type": "private"
+        },
+        "date": 1556312002,
+        "text": "/usd",
+        "entities": [
+          {
+            "offset": 0,
+            "length": 4,
+            "type": "bot_command"
+          }
+        ]
+      }
+    },
+    {
+      "update_id": 611506737,
+      "message": {
+        "message_id": 650,
+        "from": {
+          "id": 221824550,
+          "is_bot": false,
+          "first_name": "Augustine",
+          "last_name": "Аydukevich",
+          "username": "otrue",
+          "language_code": "ru"
+        },
+        "chat": {
+          "id": 221824550,
+          "first_name": "Augustine",
+          "last_name": "Аydukevich",
+          "username": "otrue",
+          "type": "private"
+        },
+        "date": 1556312017,
+        "text": "/usd",
+        "entities": [
+          {
+            "offset": 0,
+            "length": 4,
+            "type": "bot_command"
+          }
+        ]
+      }
+    },
+    {
+      "update_id": 611506738,
+      "message": {
+        "message_id": 651,
+        "from": {
+          "id": 518019441,
+          "is_bot": false,
+          "first_name": "Анечка",
+          "language_code": "ru"
+        },
+        "chat": {
+          "id": 518019441,
+          "first_name": "Анечка",
+          "type": "private"
+        },
+        "date": 1556312018,
+        "text": "/usd",
+        "entities": [
+          {
+            "offset": 0,
+            "length": 4,
+            "type": "bot_command"
+          }
+        ]
+      }
+    },
+    {
+      "update_id": 611506739,
+      "message": {
+        "message_id": 653,
+        "from": {
+          "id": 518019441,
+          "is_bot": false,
+          "first_name": "Анечка",
+          "language_code": "ru"
+        },
+        "chat": {
+          "id": 518019441,
+          "first_name": "Анечка",
+          "type": "private"
+        },
+        "date": 1556312027,
+        "text": "/usd",
+        "entities": [
+          {
+            "offset": 0,
+            "length": 4,
+            "type": "bot_command"
+          }
+        ]
+      }
+    },
+    {
+      "update_id": 611506740,
+      "message": {
+        "message_id": 655,
+        "from": {
+          "id": 221824550,
+          "is_bot": false,
+          "first_name": "Augustine",
+          "last_name": "Аydukevich",
+          "username": "otrue",
+          "language_code": "ru"
+        },
+        "chat": {
+          "id": 221824550,
+          "first_name": "Augustine",
+          "last_name": "Аydukevich",
+          "username": "otrue",
+          "type": "private"
+        },
+        "date": 1556312029,
+        "text": "/usd",
+        "entities": [
+          {
+            "offset": 0,
+            "length": 4,
+            "type": "bot_command"
+          }
+        ]
+      }
+    },
+    {
+      "update_id": 611506741,
+      "message": {
+        "message_id": 657,
+        "from": {
+          "id": 518019441,
+          "is_bot": false,
+          "first_name": "Анечка",
+          "language_code": "ru"
+        },
+        "chat": {
+          "id": 518019441,
+          "first_name": "Анечка",
+          "type": "private"
+        },
+        "date": 1556312033,
+        "text": "/usd",
+        "entities": [
+          {
+            "offset": 0,
+            "length": 4,
+            "type": "bot_command"
+          }
+        ]
       }
     }
   ]
