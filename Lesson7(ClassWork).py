@@ -9,7 +9,6 @@ print("-------------------------------------------- Написание кода 
 TOKEN = "888175405:AAGnCJ-dGyToTh3lGaa-D716cjLKtZVTgAk"
 URL = "https://api.telegram.org/bot" + TOKEN + "/"
 
-
 # Проверить работает ли бот (Ответ: Response [200])
 def get_bot_check():
     import requests
@@ -45,13 +44,6 @@ def send_message(chat_id, text):
     # return "Сообщение отправленно"
 
 
-'''
-print(get_bot_check())
-print(get_updates())
-print(get_message())
-'''
-print(send_message(get_message()['chat_id'], "Что тебе нужно?"))
-
 print("-------------------------------------------- Красивый вид JSON (запись в файл)")
 
 
@@ -69,11 +61,17 @@ print("-------------------------------------------- Обработка отве�
 
 
 def main():
+    import requests
+    print(requests.get(URL + 'setWebhook'))  # Webhook is already deleted
+
+    print(get_bot_check())
+    print(get_updates())
+    print(send_message(get_message()['chat_id'], "Что тебе нужно?"))
+
     while True:
         answer = get_message()  # Получить последнее сообщение
         if 'ничего' in answer['text']:
             send_message(answer['chat_id'], 'тогда проваливай!')
-            break
 
 
 if __name__ == '__main__':
