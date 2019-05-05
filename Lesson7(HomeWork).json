@@ -1,7 +1,7 @@
 {
-  "update_id": 611506934,
+  "update_id": 611506935,
   "message": {
-    "message_id": 1046,
+    "message_id": 1048,
     "from": {
       "id": 221824550,
       "is_bot": false,
@@ -17,12 +17,12 @@
       "username": "otrue",
       "type": "private"
     },
-    "date": 1557050144,
-    "text": "/usd",
+    "date": 1557050148,
+    "text": "/help",
     "entities": [
       {
         "offset": 0,
-        "length": 4,
+        "length": 5,
         "type": "bot_command"
       }
     ]
