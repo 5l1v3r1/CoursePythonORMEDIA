@@ -286,5 +286,5 @@ while True:
 
 # Создание объектов
 rates = ParserNBRB("http://www.nbrb.by/API/ExRates/Rates?Periodicity=0")
-oTrue = BotWebhook("888175405:AAGnCJ-dGyToTh3lGaa-D716cjLKtZVTgAk", "https://lawr.localhost.run")
+oTrue = BotWebhook("888175405:AAGnCJ-dGyToTh3lGaa-D716cjLKtZVTgAk", "https://lawr6.localhost.run")
 oTrue.creation_flask()  # Запуск приложения Flask (уже с нужным функционалом)
