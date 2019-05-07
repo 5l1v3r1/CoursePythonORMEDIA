@@ -1,5 +1,5 @@
 # CoursePythonORMEDIA
-Курсы по Python от ORMEDIA. (Базовый + Django) Содержит работу в классе и домашние задания!
+<h2>Курсы по Python от ORMEDIA. (Базовый + Django) Содержит работу в классе и домашние задания!<\h2>
 
 <b>Lesson##(ClassWork).py</b> - Работа в классе <br>
 <b>Lesson##(HomeWork).py</b>  - Домашнее задание <br>
