@@ -1,11 +1,12 @@
 # Класс бота, который работает используя requests (запросы в getupdates)
 class LawrBotGetUpdates:
+    # И Н Ф О Р М А Ц И Я
     # Получать обновления от телеграм можно через: 1) getupdates 2) Webhook
     #    1) Если "getupdates" - то работаем просто через [requests.post / requests.get]
     #    2) Если "Webhook"    - то работаем через [Django / Flask]
     # Работать с Flask можно через: 1) localhost 2) Тунель HTTP (localhost.run) 2) Тунель HTTPS (ngrok.com)
 
-    # Атрибуты класса
+    # А Т Р И Б У Т Ы
     FLAG_Debug = 3  # =0..3 (Режимы)
     COUNT_Debug = 1  # Счетчик сообщений от debugging
     JSON = None  # Ответ от бота в JSON формате (все сообщения пользователя)
