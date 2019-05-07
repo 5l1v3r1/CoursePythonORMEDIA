@@ -215,13 +215,13 @@ def data(day, month, year):
     flag = "False"
     print(" Исходный дата:", day, ".", month, ".", year)
     if (month == 1) or (month == 3) or (month == 5) or (month == 7) or (month == 8) or (month == 10) or (month == 12):
-        if (1 <= day <= 31):
+        if 1 <= day <= 31:
             flag = "True"
     elif (month == 4) or (month == 6) or (month == 9) or (month == 11):
-        if (1 <= day <= 30):
+        if 1 <= day <= 30:
             flag = "True"
-    elif (month == 2):
-        if (1 <= day <= 28):
+    elif month == 2:
+        if 1 <= day <= 28:
             flag = "True"
     else:
         flag = "False"
@@ -241,6 +241,8 @@ print("-------------------------------------------- Задание 13 (82)")
 '''
 
 print("[Функция сортирует int и float из списка]")
+
+
 def func13(sps):
     new_sps = []
     for i in sps:
