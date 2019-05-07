@@ -126,7 +126,7 @@ class ParserNBRB:
             if cur['Cur_Abbreviation'] == abbreviation:
                 return cur
 
-    # Преобразоввывает "cur"(словарь с нужной валютой) в удбно читаемый текст
+    # Преобразоввывает "cur"(словарь с нужной валютой) в удобно читаемый текст
     @staticmethod
     def print_money(cur):
         cur_scale = str(cur['Cur_Scale'])
@@ -171,7 +171,7 @@ year = int(data[0:4])
 month = data[4:6]
 day = data[6:9]
 
-for i in range(21):  # Цикл от 0 до 4
+for i in range(21):  # Цикл от 0 до 20
     # Формируем название таблицы на основе даты
     name_tb = 'rates' + str(year - i) + str(month) + str(day)
     table_settings = """id SERIAL PRIMARY KEY,
