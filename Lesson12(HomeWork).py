@@ -100,7 +100,7 @@ class PostgreSQL:
 # Класс отвечающий за парсинг/отображение/вывод валют
 class ParserNBRB:
     JSON = None  # Ответ от сайта в JSON формате (все курсы валют)
-    FILE_JSON = None  # Объект открытого файла Lesson7(ClassWork).json
+    FILE_JSON = None  # Объект открытого файла Lesson07(ClassWork).json
 
     # Инициализаци/создание парсера
     def __init__(self, URL):
@@ -112,7 +112,7 @@ class ParserNBRB:
         return self.JSON
 
     # ЗАПИСАТЬ JSON В ФАЙЛ (с форматирование)
-    def write_json(self, filename='Lesson7(HomeWork).json'):
+    def write_json(self, filename='Lesson07(HomeWork).json'):
         import json
         # Создаем object_filename(открытый для записи файловый объект) привязанный к файлу "filename"
         with open(filename, 'w') as self.FILE_JSON:
