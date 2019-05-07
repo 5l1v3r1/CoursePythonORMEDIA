@@ -9,6 +9,7 @@ print("-------------------------------------------- Написание кода 
 TOKEN = "888175405:AAGnCJ-dGyToTh3lGaa-D716cjLKtZVTgAk"
 URL = "https://api.telegram.org/bot" + TOKEN + "/"
 
+
 # Проверить работает ли бот (Ответ: Response [200])
 def get_bot_check():
     import requests
