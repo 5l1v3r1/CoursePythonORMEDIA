@@ -136,6 +136,7 @@ class ParserNBRB:
 
     # ЗАПИСАТЬ JSON В ФАЙЛ (с форматирование)
     def write_json(self, filename='Lesson7(HomeWork).json'):
+        import json
         # Создаем object_filename(открытый для записи файловый объект) привязанный к файлу "filename"
         with open(filename, 'w') as self.FILE_JSON:
             # Метод который записывает в object_filename(файловый объект) данные JSON
