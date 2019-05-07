@@ -1,8 +1,10 @@
 # CoursePythonORMEDIA
-Курсы по Python от ORMEDIA. (Базовый + Django) Содержит работу в классе и домашние задания!
+<h3>Курсы по Python от ORMEDIA. (Базовый + Django) <br>
+Содержит работу в классе и домашние задания!</h3>
 
-<b>[ClassWork]</b> - Работа в классе <br>
-<b>[Homework]</b>  - Домашнее задание
+<b>Lesson##(ClassWork).py</b> - Работа в классе <br>
+<b>Lesson##(HomeWork).py</b>  - Домашнее задание <br>
+<b>Lesson##LawrNameClass.py</b>  - Самописанный класс для удобной работы <br>
 <hr>
 <b>01 ЗАНЯТИЕ</b> - Вводное. Основы Python. (без ДЗ) <br>
 <b>02 ЗАНЯТИЕ</b> - Переменные. Github. <br>
