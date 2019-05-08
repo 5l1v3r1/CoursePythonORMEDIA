@@ -71,7 +71,7 @@ class LawrBotWebhook:
         if methods == "GET":
             requests.get(self.URL + 'sendmessage?chat_id={}&text={}'.format(chat_id, text))
 
-    # ОТПРАВЛЯТЬ Сообщения (Настроенно на вывод курсов валют)
+    # [ЧС] ОТПРАВЛЯТЬ Сообщения (Настроенно на вывод курсов валют)
     def send_message_rates(self, object_parser):
         object_parser.update_json()
         # Отвечаем на последние сообщение
