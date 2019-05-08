@@ -36,5 +36,9 @@ import Lesson07LawrBotWebhook
 # Создание объектов
 rates = Lesson07LawrParserNBRB.LawrParserNBRB("http://www.nbrb.by/API/ExRates/Rates?Periodicity=0")
 oTrue = Lesson07LawrBotWebhook.LawrBotWebhook("888175405:AAGnCJ-dGyToTh3lGaa-D716cjLKtZVTgAk",
-                                              "https://lawr54.localhost.run")
+                                              "https://lawr.localhost.run")
 oTrue.creation_flask(rates)  # Запуск приложения Flask (уже с нужным функционалом)
+app = oTrue.APP  # Flask-у на хостинге проще работать с обычной переменной "app"
+
+if __name__ == '__main__':
+    app.run()  # Запускаем объект "app"="oTrue.APP" (приложение фласка)

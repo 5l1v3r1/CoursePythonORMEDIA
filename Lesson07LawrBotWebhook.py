@@ -4,7 +4,7 @@ class LawrBotWebhook:
     # Получать обновления от телеграм можно через: 1) getupdates 2) Webhook
     #    1) Если "getupdates" - то работаем просто через [requests.post / requests.get]
     #    2) Если "Webhook"    - то работаем через [Django / Flask]
-    # Работать с Flask можно через: 1) localhost 2) Тунель HTTP (localhost.run) 2) Тунель HTTPS (ngrok.com)
+    # Работать с Flask можно через: 1) localhost 2) Тунель HTTP (localhost.run) 3) Тунель HTTPS (ngrok.com) 4) Хостинг
 
     # А Т Р И Б У Т Ы
     APP = None  # Приложение Flask
@@ -25,9 +25,10 @@ class LawrBotWebhook:
     # Создание приложения Flask
     def creation_flask(self, object_parser):
         from flask import Flask
+        # from flask_sslify import SSLify
         self.APP = Flask(__name__)  # Создаем экземпляр "app" класса "Flask" (приложение фласка)
+        # sslify = SSLify(self.APP) # Для того чтобы Flask запускался на https
         self.creation_web(object_parser)  # Создаем страицы сайта
-        self.APP.run()  # Запускаем объект (приложение фласка)
 
     # Создание страницы для приложения Flask
     def creation_web(self, object_parser):
