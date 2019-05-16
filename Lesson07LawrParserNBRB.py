@@ -28,6 +28,13 @@ class LawrParserNBRB:
             if cur['Cur_Abbreviation'] == abbreviation:
                 return cur
 
+    # Возвращает словарь с валютами
+    def get_table(self):
+        table = list()
+        for cur in self.JSON:
+            table.append(cur)
+        return table
+
     # Преобразоввывает "cur"(словарь с нужной валютой) в удбно читаемый текст
     @staticmethod
     def print_money(cur):
