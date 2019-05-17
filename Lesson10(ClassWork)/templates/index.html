@@ -31,7 +31,21 @@
 </head>
 
 <body style="background-image: url(https://img1.liveinternet.ru/images/attach/c/3/77/1/77001061_large_fon_rogozhka_seraya.jpg)">
-    <div>
+    <div><br>
+        <!-- Отправить данные в Python -->
+        <div class="container">
+            <div class="row">
+                <div class="col-3"></div>
+                <form action="{{ url_for('index') }}" class="col-6 align-self-center" method="post">
+                    <fieldset>
+                        <legend class="text-center">Год за который показать курсы валют</legend>
+                        <input class="form-control" type="text" name="year"></p>
+                    </fieldset>
+                    <p><input class="btn btn-success btn-block" type="submit" value="Отправить"></p>
+                </form>
+            </div>
+        </div>
+        <!-- КОНЕЦ Отправить данные в Python -->
         <h1><span>Курсы валют</span></h1>
         <h2><span>От {{ TABLE[1]['Date'][0:10] }}</span></h2>
         <table class="table">
@@ -60,8 +74,8 @@
         <div class="films container">
             <div class="row">
                 {% for i in range(12) %}
-                    <div class="col-lg-3"><a href="{{ L[i] }}"><img src="{{ I[i] }}" alt="{{ T[i] }}"> <br><b>
-                    {{ T[i] }}</b></a></div>
+                    <div class="col-lg-3"><a href="{{ LINK[i] }}"><img src="{{ IMG[i] }}" alt="{{ TEXT[i] }}"> <br><b>
+                    {{ TEXT[i] }}</b></a></div>
                 {% endfor %}
             </div>
         </div>
