@@ -16,7 +16,7 @@
 <b>07 ЗАНЯТИЕ</b> - Telegram. Requests. JSON. Flask. GetUpdates. Webhook. Parser. ООП. <br>
 <b>08 ЗАНЯТИЕ</b> - NO <br>
 <b>09 ЗАНЯТИЕ</b> - Регулярные выражения. Методы строк. <br>
-<b>10 ЗАНЯТИЕ</b> - Flask. Bootstrap. POST/GET. render_template() <br>
+<b>10 ЗАНЯТИЕ</b> - Flask. Jinja2. Bootstrap. POST/GET. render_template() <br>
 
 <b>11 ЗАНЯТИЕ</b> - БД <br>
 <b>12 ЗАНЯТИЕ</b> - БД. PostgreSQL. Postico. psycopg2. Валюты за 20 лет.<br>
