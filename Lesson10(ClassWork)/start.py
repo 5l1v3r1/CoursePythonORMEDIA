@@ -1,4 +1,4 @@
-from flask import Flask, render_template, request, jsonify
+from flask import Flask, render_template, request
 from parsing import create_text, create_link, create_img
 import Lesson07LawrParserNBRB
 
@@ -38,9 +38,9 @@ def create_afisha():
 app = Flask(__name__)
 
 
-@app.route('/', methods=['POST', 'GET'])  # вызываеться всегда когда на приложение поступает POST или GET
+@app.route('/', methods=['POST', 'GET'])
 def index():
-    if request.method == 'POST':  # Запрос от телеграмм на запись
+    if request.method == 'POST':  # Отправить данные в HTML
         form_year = request.form['year']
         afisha = create_afisha()
         table = create_table(form_year, date_now()[1], date_now()[2])
