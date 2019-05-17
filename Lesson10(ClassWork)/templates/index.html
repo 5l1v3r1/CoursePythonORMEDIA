@@ -39,7 +39,7 @@
                 <form action="{{ url_for('index') }}" class="col-6 align-self-center" method="post">
                     <fieldset>
                         <legend class="text-center">Год за который показать курсы валют</legend>
-                        <input class="form-control" type="text" name="year"></p>
+                        <input class="form-control text-center" type="text" value="{{ YEAR }}" name="year"></p>
                     </fieldset>
                     <p><input class="btn btn-success btn-block" type="submit" value="Отправить"></p>
                 </form>
@@ -47,7 +47,7 @@
         </div>
         <!-- КОНЕЦ Отправить данные в Python -->
         <h1><span>Курсы валют</span></h1>
-        <h2><span>От {{ TABLE[1]['Date'][0:10] }}</span></h2>
+        <h2 class="text-center"><span>От {{ TABLE[1]['Date'][0:10] }}</span></h2>
         <table class="table">
             <thead>
             <tr>
@@ -74,8 +74,8 @@
         <div class="films container">
             <div class="row">
                 {% for i in range(12) %}
-                    <div class="col-lg-3"><a href="{{ LINK[i] }}"><img src="{{ IMG[i] }}" alt="{{ TEXT[i] }}"> <br><b>
-                    {{ TEXT[i] }}</b></a></div>
+                    <div class="col-lg-3"><a href="{{ AFISHA[1][i] }}"><img src="{{ AFISHA[2][i] }}" alt="{{ AFISHA[0][i] }}"> <br><b>
+                    {{ AFISHA[0][i] }}</b></a></div>
                 {% endfor %}
             </div>
         </div>

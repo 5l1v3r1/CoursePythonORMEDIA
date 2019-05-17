@@ -2,45 +2,53 @@ from flask import Flask, render_template, request, jsonify
 from parsing import create_text, create_link, create_img
 import Lesson07LawrParserNBRB
 
-app = Flask(__name__)
 
-link = create_link()
-text = create_text()
-img = create_img()
-
-# 2019
-parser = Lesson07LawrParserNBRB.LawrParserNBRB("http://www.nbrb.by/API/ExRates/Rates?Periodicity=0")
-data = parser.update_json()[0]['Date'][0:10].replace("-", "")  # Имеет вид: 20190507
-global year, month, day
-year = int(data[0:4])
-month = data[4:6]
-day = data[6:9]
-del parser  # Удаляем объект (так как в цикле он будет создаваться заново)
+# Возвращает текущую дату в формате [год, месяц, день]
+def date_now():
+    parser = Lesson07LawrParserNBRB.LawrParserNBRB("http://www.nbrb.by/API/ExRates/Rates?Periodicity=0")
+    data = parser.update_json()[0]['Date'][0:10].replace("-", "")  # Имеет вид: 20190507
+    year = int(data[0:4])
+    month = data[4:6]
+    day = data[6:9]
+    del parser
+    data = [year, month, day]
+    return data
 
 
-
-
-def gtt(y):
-    # Создаем объект с курсами валют на определенную дату
+# Возвращает таблицу в формате [{валюта1}, {валюта2}..]
+def create_table(year, month, day):
     rates = Lesson07LawrParserNBRB.LawrParserNBRB(
-        "http://www.nbrb.by/API/ExRates/Rates?onDate={}-{}-{}&Periodicity=0".format(y, month, day))
+        "http://www.nbrb.by/API/ExRates/Rates?onDate={}-{}-{}&Periodicity=0".format(year, month, day))
     rates.update_json()
     table = rates.get_table()
-    del rates  # Удаляем объект (так как в цикле он будет создаваться заново)
+    del rates
+    print(table)
     return table
 
 
+# Возвращает афишу в формате [[текст1, текст2..], [ссылка1, ссылка2..], [img1, img2..]]
+def create_afisha():
+    text = create_text()
+    link = create_link()
+    img = create_img()
+    afisha = [text, link, img]
+    return afisha
+
+
+app = Flask(__name__)
 
 
 @app.route('/', methods=['POST', 'GET'])  # вызываеться всегда когда на приложение поступает POST или GET
 def index():
     if request.method == 'POST':  # Запрос от телеграмм на запись
-        y = request.form['year']
-        table = gtt(y)
-        return render_template('index.html', TABLE=table, TEXT=text, IMG=img, LINK=link)
+        form_year = request.form['year']
+        afisha = create_afisha()
+        table = create_table(form_year, date_now()[1], date_now()[2])
+        return render_template('index.html', TABLE=table, AFISHA=afisha, YEAR=form_year)
     if request.method == 'GET':  # Запрос на чтение (к примеру при обновлении страницы Flask)
-        table = gtt(year)
-        return render_template('index.html', TABLE=table, TEXT=text, IMG=img, LINK=link)
+        afisha = create_afisha()
+        table = create_table(date_now()[0], date_now()[1], date_now()[2])
+        return render_template('index.html', TABLE=table, AFISHA=afisha, YEAR=date_now()[0])
 
 
 if __name__ == '__main__':
