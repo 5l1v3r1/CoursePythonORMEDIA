@@ -22,3 +22,6 @@
 <b>12 ЗАНЯТИЕ</b> - БД. PostgreSQL. Postico. psycopg2. Валюты за 20 лет.<br>
 <b>13 ЗАНЯТИЕ</b> - БД. Mongdb. <br>
 <b>14 ЗАНЯТИЕ</b> - БД  <br>
+
+<b>15 ЗАНЯТИЕ</b> - Django  <br>
+
