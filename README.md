@@ -23,15 +23,7 @@
 <b>13 ЗАНЯТИЕ</b> - БД. Mongdb. <br>
 <b>14 ЗАНЯТИЕ</b> - БД  <br>
 
-<b>15 ЗАНЯТИЕ</b> - Django  <br>
+> <b>15 ЗАНЯТИЕ</b> - Django  <br>
 <b>16 ЗАНЯТИЕ</b> - Django  <br>
 <b>17 ЗАНЯТИЕ</b> - Django  <br>
 
-
-```scss /* или css */
-@import "bower_components/tree-normalize/generic.normalize";
-h1 {
- font-size:1.5em;
- font-weight: 300;
-}
-```
