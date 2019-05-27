@@ -14,7 +14,7 @@
 
 <b>06 ЗАНЯТИЕ</b> - ООП. Объекты и классы. Парсинг. BeautifulSoup. Requests. <br>
 <b>07 ЗАНЯТИЕ</b> - Telegram. Requests. JSON. Flask. GetUpdates. Webhook. Parser. ООП. <br>
-<b>08 ЗАНЯТИЕ</b> - NO <br>
+<b>08 ЗАНЯТИЕ</b> - Работа с файлами. Try-Except-Finally <br>
 <b>09 ЗАНЯТИЕ</b> - Регулярные выражения. Методы строк. <br>
 <b>10 ЗАНЯТИЕ</b> - Flask. Jinja2. Bootstrap. POST/GET. render_template() <br>
 
@@ -24,4 +24,14 @@
 <b>14 ЗАНЯТИЕ</b> - БД  <br>
 
 <b>15 ЗАНЯТИЕ</b> - Django  <br>
+<b>16 ЗАНЯТИЕ</b> - Django  <br>
+<b>17 ЗАНЯТИЕ</b> - Django  <br>
 
+
+```scss /* или css */
+@import "bower_components/tree-normalize/generic.normalize";
+h1 {
+ font-size:1.5em;
+ font-weight: 300;
+}
+```
