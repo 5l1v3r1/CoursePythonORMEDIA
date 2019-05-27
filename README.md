@@ -18,13 +18,13 @@
 <b>09 ЗАНЯТИЕ</b> - Регулярные выражения. Методы строк. <br>
 <b>10 ЗАНЯТИЕ</b> - Flask. Jinja2. Bootstrap. POST/GET. render_template() <br>
 
-<s><b>11 ЗАНЯТИЕ</b> - БД <br>/s>
+<s><b>11 ЗАНЯТИЕ</b> - БД <br></s>
 <b>12 ЗАНЯТИЕ</b> - БД. PostgreSQL. Postico. psycopg2. Валюты за 20 лет.<br>
-<s><b>13 ЗАНЯТИЕ</b> - БД. Mongdb. <br>/s>
+<s><b>13 ЗАНЯТИЕ</b> - БД. Mongdb. <br></s>
 <s><b>14 ЗАНЯТИЕ</b> - БД  <br>/s>
 
 <s><b>15 ЗАНЯТИЕ</b> - Django  <br></s>
-<s><b>16 ЗАНЯТИЕ</b> - Django  <br>/s>
-<s><b>17 ЗАНЯТИЕ</b> - Django  <br>/s>
+<s><b>16 ЗАНЯТИЕ</b> - Django  <br></s>
+<s><b>17 ЗАНЯТИЕ</b> - Django  <br></s>
 
 
