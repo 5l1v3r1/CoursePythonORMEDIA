@@ -2,7 +2,7 @@
 <h3>Курсы по Python от ORMEDIA. (Базовый + Django) <br>
 Содержит работу в классе и домашние задания!</h3>
 
-`<b>Lesson##(ClassWork).py</b> - Работа в классе <br>
+<b>Lesson##(ClassWork).py</b> - Работа в классе <br>
 <b>Lesson##(HomeWork).py</b>  - Домашнее задание <br>
 <b>Lesson##LawrNameClass.py</b>  - Самописанный класс для удобной работы <br>
 <hr>
@@ -23,7 +23,8 @@
 <b>13 ЗАНЯТИЕ</b> - БД. Mongdb. <br>
 <b>14 ЗАНЯТИЕ</b> - БД  <br>
 
-<b>15 ЗАНЯТИЕ</b> - Django  <br>`
+<b>15 ЗАНЯТИЕ</b> - Django  <br>
 <b>16 ЗАНЯТИЕ</b> - Django  <br>
 <b>17 ЗАНЯТИЕ</b> - Django  <br>
 
+    dir /fonts
