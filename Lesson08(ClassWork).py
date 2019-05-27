@@ -29,4 +29,12 @@ with open("Lesson08(ClassWork).py", "r") as file:
 
 print("-------------------------------------------- Обработка ошибок")
 
+lst = [1, 2, 3]
+x = 2
+try:
+    print(lst[x])
+except IndexError:
+    print('Список начинается с нулевого индекса, lst[{}] не существует!'.format(x))
+finally:
+    print('Что бы не произошло, этот текст отобразиться!')
 
