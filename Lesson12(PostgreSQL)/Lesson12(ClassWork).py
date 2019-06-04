@@ -1,9 +1,9 @@
-import Lesson12LawrPostgreSQL
+from ClassLawrPostgreSQL import PostgreSQL
 
 print("-------------------------------------------- Тестирование своего класса PostgreSQL")
 
 # Создание объекта Базы данных
-lawr = Lesson12LawrPostgreSQL.LawrPostgreSQL('localhost', '5432', 'lawr', 'lawr', 'lawr')
+lawr = PostgreSQL('localhost', '5432', 'lawr', 'lawr', 'lawr')
 
 # Создаем таблицу (Если уже есть, то перезапись)
 table_settings = """id SERIAL PRIMARY KEY,

@@ -1,4 +1,4 @@
-import Lesson12LawrPostgreSQL
+from ClassLawrPostgreSQL import PostgreSQL
 import Lesson07LawrParserNBRB
 
 print("-------------------------------------------- Задание 1 (87)")
@@ -8,7 +8,7 @@ print("-------------------------------------------- Задание 1 (87)")
 '''
 
 # Создание объекта Базы данных
-lawr = Lesson12LawrPostgreSQL.LawrPostgreSQL('localhost', '5432', 'lawr', 'lawr', 'lawr')
+lawr = PostgreSQL('localhost', '5432', 'lawr', 'lawr', 'lawr')
 
 # Получаем такущую дату (можно было проще, но сделал через свой класс, что был под рукой)
 rates = Lesson07LawrParserNBRB.LawrParserNBRB("http://www.nbrb.by/API/ExRates/Rates?Periodicity=0")
