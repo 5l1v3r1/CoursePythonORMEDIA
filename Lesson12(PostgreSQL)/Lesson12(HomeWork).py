@@ -34,8 +34,8 @@ for i in range(20+1):  # Цикл от 0 до 20
     lawr.create_table(name_tb, table_settings)
 
     # Очищаем таблицу
-    lawr.clear_table(name_table=name_tb)
-    print(lawr.show_table(name_table=name_tb))
+    lawr.clear_table(table=name_tb)
+    print(lawr.show_table(table=name_tb))
 
     # Создаем объект с курсами валют на определенную дату
     rates = Lesson07LawrParserNBRB.LawrParserNBRB(
@@ -47,6 +47,6 @@ for i in range(20+1):  # Цикл от 0 до 20
                                        line['Cur_Name'],
                                        line['Cur_Scale'],
                                        line['Cur_OfficialRate']))
-    print(lawr.show_table(name_table=name_tb))
+    print(lawr.show_table(table=name_tb))
 
     del rates  # Удаляем объект (так как в цикле он будет создаваться заново)
