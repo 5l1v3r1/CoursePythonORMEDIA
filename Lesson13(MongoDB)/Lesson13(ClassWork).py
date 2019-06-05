@@ -10,7 +10,7 @@ string = "localhost:27017"
 
 # Подключение
 print()
-BD = MongoDB(connection_string=string)
+BD = MongoDB(connection_string=string, ssl=False)
 
 # Удаление Коллекции (если не существует ничего не происходит)
 print()
