@@ -1,4 +1,4 @@
-from ClassLawrPostgreSQL import PostgreSQL
+from ClassLawr_PostgreSQL import PostgreSQL
 
 # Используется локальная база данных на MacOS (Postgres)
 # Для просмотра используется: Postico

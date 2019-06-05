@@ -1,4 +1,4 @@
-from ClassLawrPostgreSQL import PostgreSQL
+from ClassLawr_PostgreSQL import PostgreSQL
 import Lesson07LawrParserNBRB
 
 print("-------------------------------------------- Задание 1 (87)")
