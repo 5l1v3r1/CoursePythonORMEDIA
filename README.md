@@ -26,7 +26,7 @@
 <s><b>15 ЗАНЯТИЕ</b> - Django  <br></s>
 <s><b>16 ЗАНЯТИЕ</b> - Django  <br></s>
 <s><b>17 ЗАНЯТИЕ</b> - Django  <br></s>```
-<s><b>18 ЗАНЯТИЕ</b> - Django  <br></s>```
+<s><b>**18 ЗАНЯТИЕ**</b> - Django  <br></s>```
 <s><b>19 ЗАНЯТИЕ</b> - Django  <br></s>```
 <s><b>20 ЗАНЯТИЕ</b> - Django  <br></s>```
 
