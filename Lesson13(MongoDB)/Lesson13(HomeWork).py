@@ -79,3 +79,32 @@ browser.quit()
 os.remove("geckodriver.log")  # Удаление файла "geckodriver.log"
 
 
+# ИНСТАГРАММ
+# executable_path = "driver_chrome/chromedriver_mac64"
+# browser = webdriver.Chrome(executable_path=executable_path)
+# # --АВТОРИЗАЦИЯ--
+# browser.get("https://www.instagram.com/accounts/edit/")
+# sleep(1)
+# textarea = browser.find_element_by_name('username')
+# textarea.send_keys('--')
+# textarea = browser.find_element_by_name('password')
+# textarea.send_keys('--')
+# sleep(1)
+# # нажатие кнопки
+# NEXT_BUTTON_XPATH = '//button[@class="sqdOP  L3NKy       " and @type="submit"]'
+# button = browser.find_element_by_xpath(NEXT_BUTTON_XPATH)
+# button.click()
+#
+# sleep(6)
+# '''<input class="JLJ-B zyHYP" aria-required="true" id="pepUsername" type="text" value="a.s.phyxia">'''
+# XPATH = '//input[@id="pepUsername" and @type="text"]'
+# textarea = browser.find_element_by_xpath(XPATH)
+# textarea.clear()
+# textarea.send_keys("777")
+#
+# # нажатие кнопки
+# NEXT_BUTTON_XPATH = '//button[@class="sqdOP  L3NKy       " and @type="button"]'
+# button = browser.find_element_by_xpath(NEXT_BUTTON_XPATH)
+# button.click()
+
+
